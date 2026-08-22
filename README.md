@@ -4,6 +4,7 @@ Informational directory for research-use (RUO) peptide vendors, 503A / 503B comp
 
 This repo is the index data store. It is not grokbot.
 
+- Schema v1 locks: [`docs/schema.md`](docs/schema.md)
 - Seed data: [`data/seed/`](data/seed/)
 - Draft site: https://peptide-quality-index.vercel.app/rankings
 
