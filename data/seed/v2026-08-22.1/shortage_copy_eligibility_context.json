@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "dataset": "pqi_shortage_copy_eligibility_context",
+    "version": "2026-08-22.1",
+    "as_of": "2026-08-22",
+    "notes": [
+      "Regulatory-context / historical only. Not medical or compounding advice.",
+      "Keep 503A and 503B ends separate.",
+      "Recompute shortage_copy_window_open from dated fields."
+    ]
+  },
+  "apis": [
+    {
+      "api": "tirzepatide",
+      "as_of": "2026-08-22",
+      "shortage_status": "resolved",
+      "shortage_on_list_start": "2022-12-15",
+      "shortage_resolved_on": "2024-12-19",
+      "enforcement_discretion_503A_end": "2025-02-18",
+      "enforcement_discretion_503B_end": "2025-03-19",
+      "litigation_hold_note": "OFA v FDA 4:24-cv-953; PI denied 2025-03-05.",
+      "shortage_copy_window_open": false,
+      "context_blurb": "Tirzepatide shortage resolved 2024-12-19; FDA shortage-copy discretion ended 2025-02-18 (503A) / 2025-03-19 (503B).",
+      "primary_source_urls": [
+        "https://cfpr.org/files/2024.12.19_tirzepatide_declaratory_order.pdf",
+        "https://www.fda.gov/media/184606/download"
+      ],
+      "secondary_source_urls": [],
+      "needs_fda_repull": true
+    },
+    {
+      "api": "semaglutide",
+      "as_of": "2026-08-22",
+      "shortage_status": "resolved",
+      "shortage_on_list_start": "2022-03",
+      "day_precision_on_list_start": false,
+      "shortage_resolved_on": "2025-02-21",
+      "enforcement_discretion_503A_end": "2025-04-22",
+      "enforcement_discretion_503B_end": "2025-05-22",
+      "litigation_hold_note": "OFA v FDA 4:25-cv-00174; PI denied 2025-04-24.",
+      "shortage_copy_window_open": false,
+      "context_blurb": "Semaglutide injection shortage resolved 2025-02-21; FDA shortage-copy discretion ended 2025-04-22 (503A) / 2025-05-22 (503B).",
+      "primary_source_urls": [
+        "https://www.fda.gov/media/185526/download"
+      ],
+      "secondary_source_urls": [
+        "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-says-shortage-novos-weight-loss-drug-resolved-2025-02-21/"
+      ],
+      "needs_fda_repull": true
+    }
+  ]
+}

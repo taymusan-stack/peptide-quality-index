@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "dataset": "pqi_lab_method_catalog",
+    "version": "2026-08-22.1",
+    "as_of": "2026-08-22",
+    "notes": [
+      "Informational only. Never invent COA results.",
+      "Score only analytes present on a report; null != pass.",
+      "commissioning_party is first-class for trust.",
+      "verified (product/lot) uses lab-portal ladder; separate from pharmacy_lists_peptide."
+    ],
+    "default_lab_ids": [
+      "janoshik",
+      "mz_biolabs",
+      "colmaric"
+    ],
+    "verification_status_enum": [
+      "verified_on_lab_portal",
+      "client_pdf_only",
+      "unverified"
+    ],
+    "commissioning_party_enum": [
+      "vendor",
+      "buyer",
+      "group",
+      "unknown"
+    ]
+  },
+  "labs": [
+    {
+      "lab_id": "janoshik",
+      "name": "Janoshik Analytical",
+      "official_urls": {
+        "home": "https://janoshik.com/",
+        "services": "https://janoshik.com/services/",
+        "verification": "https://janoshik.com/verification/"
+      },
+      "is_pqi_default": true,
+      "geography": "EU",
+      "standard_panel": {
+        "identity": {
+          "typical": [
+            "hplc"
+          ],
+          "notes": "MS/LCMS not always on base peptide SKU; explicit on some products (e.g. AOD-9604)."
+        },
+        "purity": {
+          "typical": [
+            "hplc"
+          ],
+          "notes": "Peptide purity; optional m/m for raw API."
+        },
+        "quantity": {
+          "typical": [
+            "hplc"
+          ],
+          "optional": [
+            "chns"
+          ],
+          "notes": "mg/vial common for lyophilizate."
+        }
+      },
+      "add_on_panels": [
+        {
+          "analyte": "endotoxin",
+          "method": "LAL",
+          "notes": "Finished products; often calibrated ~10 EU/vial"
+        },
+        {
+          "analyte": "sterility",
+          "method": "TAMC+TYMC",
+          "notes": "~14 days; needs extra unopened units"
+        },
+        {
+          "analyte": "heavy_metals",
+          "method": null,
+          "notes": "As/Cd/Pb/Hg"
+        },
+        {
+          "analyte": "tfa",
+          "method": null,
+          "notes": null
+        },
+        {
+          "analyte": "ph",
+          "method": null,
+          "notes": null
+        },
+        {
+          "analyte": "contamination_screen",
+          "method": "LCMS/GCMS",
+          "notes": "Harm-reduction catalog"
+        },
+        {
+          "analyte": "variance_testing",
+          "method": null,
+          "notes": "Multi-piece same batch"
+        },
+        {
+          "analyte": "raw_data",
+          "method": null,
+          "notes": "Paid add-on"
+        }
+      ],
+      "public_verification": {
+        "available": true,
+        "mechanism": "task_number_plus_unique_key_and_or_qr",
+        "url": "https://janoshik.com/verification/",
+        "fields_required": [
+          "task_number",
+          "unique_key"
+        ],
+        "notes": "Verifies lab record for that task; does not prove every retail vial matches unless buyer aliquot tested."
+      },
+      "client_issued_model": "Client (vendor/buyer/group) commissions and ships sample; lab issues report.",
+      "license_claims": [],
+      "accreditation_claims": [],
+      "limitations": [
+        "Many peptide SKUs HPLC-only (no MS identity)",
+        "Endotoxin/sterility/heavy metals are add-ons",
+        "Public results browse UI not fully inventoried this pass",
+        "No DEA/ISO claim observed on pages opened"
+      ]
+    },
+    {
+      "lab_id": "mz_biolabs",
+      "name": "MZ Biolabs",
+      "official_urls": {
+        "home": "https://www.mzbiolabs.com/",
+        "coa_testing": "https://www.mzbiolabs.com/mzbiolabs/coa-testing/",
+        "techniques": "https://www.mzbiolabs.com/mzbiolabs/our-techniques/",
+        "about": "https://www.mzbiolabs.com/mzbiolabs/about-us/"
+      },
+      "is_pqi_default": true,
+      "geography": "US",
+      "address": "2102 N Country Club Rd, Suite C, Tucson, AZ 85716",
+      "standard_panel": {
+        "identity": {
+          "typical": [
+            "hplc_uv",
+            "ms"
+          ],
+          "notes": "HPLC with UV + mass spectrometry for identity."
+        },
+        "purity": {
+          "typical": [
+            "hplc_uv"
+          ],
+          "notes": "Powders/liquids."
+        },
+        "quantity": {
+          "typical": [
+            "hplc_uv",
+            "ms"
+          ],
+          "notes": "Solutions, tablets, capsules."
+        }
+      },
+      "explicit_exclusions_on_purity_coa": [
+        "activity",
+        "sterility",
+        "endotoxins",
+        "heavy_metals",
+        "ph"
+      ],
+      "add_on_panels": [
+        {
+          "analyte": "endotoxin",
+          "method": "USP <85>",
+          "notes": "Separate from purity COA; confirm on current order path"
+        },
+        {
+          "analyte": "sterility",
+          "method": "USP <71>",
+          "notes": "Separate; confirm current commercial status"
+        }
+      ],
+      "public_verification": {
+        "available": false,
+        "mechanism": null,
+        "url": null,
+        "fields_required": [],
+        "notes": "No public verification portal observed; client-issued PDF model."
+      },
+      "client_issued_model": "Lab serves submitting client; buyer verification of vendor PDF is weak without lab reconfirm or buyer-commissioned test.",
+      "license_claims": [
+        {
+          "type": "US_DEA_Schedule_III",
+          "number": "RP0584676",
+          "source_page": "homepage/coa"
+        }
+      ],
+      "accreditation_claims": [],
+      "instrumentation_notes": [
+        "Waters Acquity UPLC + UV",
+        "Bruker Compact QTOF",
+        "Thermo LTQ Velos Pro + nanoAcquity"
+      ],
+      "limitations": [
+        "Standard purity COA excludes endotoxin/sterility/HM/pH/activity",
+        "No public QR/portal",
+        "DEA Schedule III scope may limit accepted analytes"
+      ]
+    },
+    {
+      "lab_id": "colmaric",
+      "name": "Colmaric Analyticals",
+      "official_urls": {
+        "home": "https://www.colmaricanalyticals.com/",
+        "about": "https://www.colmaricanalyticals.com/about-us/",
+        "peptide_blog": "https://www.colmaricanalyticals.com/understanding-peptides-and-the-importance-of-analytical-testing/"
+      },
+      "is_pqi_default": true,
+      "geography": "US",
+      "standard_panel": {
+        "identity": {
+          "typical": [
+            "tlc",
+            "hplc",
+            "ms"
+          ],
+          "notes": "Framed as chemistry QC for manufacturers/distributors."
+        },
+        "purity": {
+          "typical": [
+            "hplc"
+          ],
+          "notes": null
+        },
+        "quantity": {
+          "typical": [],
+          "notes": "Request-a-quote model; details not fully public."
+        }
+      },
+      "add_on_panels": [],
+      "public_verification": {
+        "available": false,
+        "mechanism": null,
+        "url": null,
+        "fields_required": [],
+        "notes": "Results by call + email PDF; no public COA portal observed."
+      },
+      "client_issued_model": "Client-commissioned CRO.",
+      "license_claims": [],
+      "accreditation_claims": [
+        {
+          "type": "ISO_IEC_claimed_on_site",
+          "number": null,
+          "notes": "Scope for research-peptide methods NOT verified this pass"
+        }
+      ],
+      "limitations": [
+        "Less transparent public method SKUs than Janoshik",
+        "ISO claim needs scope document check",
+        "No QR verification observed"
+      ],
+      "why_default": "Repeatedly named with Janoshik + MZ in secondary community indexes as US CRO third option."
+    }
+  ]
+}

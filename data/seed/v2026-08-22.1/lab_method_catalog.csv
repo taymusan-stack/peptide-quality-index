@@ -1,0 +1,4 @@
+lab_id,name,is_pqi_default,geography,public_verification_available,verification_url,dea_or_license,standard_identity_methods,standard_purity_methods,explicit_exclusions,home_url
+janoshik,Janoshik Analytical,True,EU,True,https://janoshik.com/verification/,,hplc,hplc,,https://janoshik.com/
+mz_biolabs,MZ Biolabs,True,US,False,,US_DEA_Schedule_III:RP0584676,hplc_uv|ms,hplc_uv,activity|sterility|endotoxins|heavy_metals|ph,https://www.mzbiolabs.com/
+colmaric,Colmaric Analyticals,True,US,False,,,tlc|hplc|ms,hplc,,https://www.colmaricanalyticals.com/

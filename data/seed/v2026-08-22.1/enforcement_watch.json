@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "dataset": "pqi_enforcement_watch",
+    "version": "2026-08-22.1",
+    "as_of": "2026-08-22",
+    "lane": "peptide_informational_directory",
+    "notes": [
+      "Informational only. Not legal or medical advice.",
+      "Do not invent allegation_types from titles alone.",
+      "fda.gov HTML often blocked from research env; upgrade excerpt-only via live re-pull.",
+      "Sep 2025 50+ compounder letter wave: only exemplars included; full crawl held."
+    ],
+    "confidence_enum": [
+      "full-text",
+      "excerpt-only",
+      "title-only"
+    ],
+    "allegation_type_enum": [
+      "unapproved_new_drug",
+      "misbranding_labeling",
+      "misbranding_compounded_promo",
+      "intended_use_despite_ruo",
+      "bac_water_injection_pairing",
+      "coded_glp_aliases",
+      "oral_or_device_glp_knockoff",
+      "deceptive_pricing",
+      "unsubstantiated_weight_loss_claims",
+      "fake_testimonials",
+      "fake_or_manipulated_reviews",
+      "hidden_membership_terms",
+      "unauthorized_billing_or_efta",
+      "cancel_refund_obstruction",
+      "false_compounder_identity"
+    ],
+    "agency_enum": [
+      "FDA_CDER",
+      "FTC"
+    ],
+    "entity_type_hint_enum": [
+      "RUO",
+      "503A",
+      "503B",
+      "telehealth_clinic",
+      "other"
+    ]
+  },
+  "rows": [
+    {
+      "id": "fda-prime-sciences-721805-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "Prime Sciences",
+      "entity_dba": null,
+      "cms_or_case_id": "721805",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/prime-sciences-721805-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo",
+        "bac_water_injection_pairing",
+        "coded_glp_aliases"
+      ],
+      "product_classes": [
+        "cagrilintide",
+        "retatrutide",
+        "semaglutide",
+        "tirzepatide",
+        "mazdutide",
+        "bacteriostatic_water"
+      ],
+      "excerpt": "Despite statements\u2026 laboratory research purposes only\u2026 evidence obtained from your website establishes that your products are intended to be drugs for human use.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.safemedicines.org/wp-content/uploads/2026/04/FDA-research-chemical-warnings-posted-4-7-2026.pdf",
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-lovega-pink-pony-721088-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "Lovega LLC",
+      "entity_dba": "Pink Pony Peptides",
+      "cms_or_case_id": "721088",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lovega-llc-dba-pink-pony-peptides-721088-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo",
+        "bac_water_injection_pairing",
+        "coded_glp_aliases"
+      ],
+      "product_classes": [
+        "tirzepatide",
+        "retatrutide",
+        "bacteriostatic_water"
+      ],
+      "excerpt": "The sale of these products together demonstrates that you intend for your Bacteriostatic Water to be used in combination for injection.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.safemedicines.org/wp-content/uploads/2026/04/FDA-research-chemical-warnings-posted-4-7-2026.pdf",
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-gram-peptides-721806-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "Gram Peptides",
+      "entity_dba": null,
+      "cms_or_case_id": "721806",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/gram-peptides-721806-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo",
+        "bac_water_injection_pairing",
+        "coded_glp_aliases"
+      ],
+      "product_classes": [
+        "retatrutide",
+        "tirzepatide",
+        "bacteriostatic_water"
+      ],
+      "excerpt": "Claims re appetite suppression, weight management, glucose handling cited as intended-use evidence.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.safemedicines.org/wp-content/uploads/2026/04/FDA-research-chemical-warnings-posted-4-7-2026.pdf",
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-mile-high-compounds-721600-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "Mile High Compounds LLC",
+      "entity_dba": null,
+      "cms_or_case_id": "721600",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mile-high-compounds-llc-721600-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo",
+        "bac_water_injection_pairing",
+        "coded_glp_aliases"
+      ],
+      "product_classes": [
+        "semaglutide",
+        "tirzepatide",
+        "retatrutide",
+        "bacteriostatic_water"
+      ],
+      "excerpt": "Forum Peptide Cheat Sheet dosing cited as intended-use evidence for GLP-3 RT.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.safemedicines.org/wp-content/uploads/2026/04/FDA-research-chemical-warnings-posted-4-7-2026.pdf",
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-pekcura-labs-721709-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "PekCura Labs",
+      "entity_dba": null,
+      "cms_or_case_id": "721709",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/pekcura-labs-721709-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo",
+        "bac_water_injection_pairing",
+        "coded_glp_aliases"
+      ],
+      "product_classes": [
+        "semaglutide",
+        "tirzepatide",
+        "retatrutide",
+        "cagrilintide_tirzepatide_blend",
+        "bacteriostatic_water"
+      ],
+      "excerpt": "Clinical-trial body-weight / HbA1c claim language cited as intended use.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.safemedicines.org/wp-content/uploads/2026/04/FDA-research-chemical-warnings-posted-4-7-2026.pdf",
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-formpour-722215-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "FormPour",
+      "entity_dba": null,
+      "cms_or_case_id": "722215",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/formpour-722215-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "other",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "oral_or_device_glp_knockoff"
+      ],
+      "product_classes": [
+        "semaglutide_microneedle_patch"
+      ],
+      "excerpt": "eBay store review Dec 2025; product treated as unapproved new drug under 505(a).",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-fantasy-face-722228-2026-03-31",
+      "date": "2026-03-31",
+      "agency": "FDA_CDER",
+      "entity_name": "Guangzhou Huli Technology Co., Ltd.",
+      "entity_dba": "Fantasy Face",
+      "cms_or_case_id": "722228",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/guangzhou-huli-technology-co-ltd-dba-fantasy-face-722228-03312026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "other",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "oral_or_device_glp_knockoff"
+      ],
+      "product_classes": [
+        "glp1_oral_solution"
+      ],
+      "excerpt": "Metabolism Support / Weight management Blood Sugar Balance / Ideal Body Shaping claims.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.safemedicines.org/wp-content/uploads/2026/04/FDA-research-chemical-warnings-posted-4-7-2026.pdf",
+      "cluster": "2026-03-31_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-weightcare-721478-2026-02-20",
+      "date": "2026-02-20",
+      "agency": "FDA_CDER",
+      "entity_name": "Weightless Medical LLC",
+      "entity_dba": "WeightCare",
+      "cms_or_case_id": "721478",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/weightless-medical-llc-dba-weightcare-721478-02202026",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "telehealth_clinic",
+      "allegation_types": [
+        "misbranding_compounded_promo",
+        "false_compounder_identity"
+      ],
+      "product_classes": [
+        "compounded_semaglutide",
+        "compounded_tirzepatide"
+      ],
+      "excerpt": "Representations that WeightCare is the compounder of these drug products are false or misleading.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2026-02-20_compounded_marketing",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "ftc-nextmed-final-order-2025-12-03",
+      "date": "2025-12-03",
+      "agency": "FTC",
+      "entity_name": "Southern Health Solutions, Inc.",
+      "entity_dba": "Next Medical / NextMed",
+      "cms_or_case_id": "nextmed",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-approves-final-order-against-telehealth-provider-nextmed-over-charges-it-used-deceptive",
+      "related_urls": [
+        "https://www.ftc.gov/legal-library/browse/cases-proceedings/nextmed"
+      ],
+      "document_kind": "final_order",
+      "entity_type_hint": "telehealth_clinic",
+      "allegation_types": [
+        "deceptive_pricing",
+        "unsubstantiated_weight_loss_claims",
+        "fake_testimonials",
+        "fake_or_manipulated_reviews",
+        "hidden_membership_terms",
+        "cancel_refund_obstruction"
+      ],
+      "product_classes": [
+        "telehealth_glp1_programs"
+      ],
+      "excerpt": "Final consent order: $150k consumer redress; bans deceptive cost claims, unsubstantiated typical weight-loss results, fake/manipulated reviews.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-approves-final-order-against-telehealth-provider-nextmed-over-charges-it-used-deceptive",
+      "cluster": "2025_ftc_nextmed",
+      "needs_fda_html_repull": false
+    },
+    {
+      "id": "ftc-nextmed-complaint-2025-07-14",
+      "date": "2025-07-14",
+      "agency": "FTC",
+      "entity_name": "Southern Health Solutions, Inc.",
+      "entity_dba": "Next Medical / NextMed",
+      "cms_or_case_id": "nextmed",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-takes-action-against-telemedicine-firm-nextmed-over-charges-it-used-misleading-prices-fake",
+      "related_urls": [
+        "https://www.ftc.gov/system/files/ftc_gov/pdf/Complaint-NextMed_0.pdf"
+      ],
+      "document_kind": "administrative_complaint",
+      "entity_type_hint": "telehealth_clinic",
+      "allegation_types": [
+        "deceptive_pricing",
+        "unsubstantiated_weight_loss_claims",
+        "fake_testimonials",
+        "fake_or_manipulated_reviews",
+        "hidden_membership_terms",
+        "unauthorized_billing_or_efta",
+        "cancel_refund_obstruction"
+      ],
+      "product_classes": [
+        "telehealth_glp1_programs"
+      ],
+      "excerpt": "Complaint Counts I\u2013VIII: cost, weight-loss, testimonials, reviews, membership terms, unauthorized charges, cancel/refund, EFTA.",
+      "confidence": "full-text",
+      "full_text_source": "https://www.ftc.gov/system/files/ftc_gov/pdf/Complaint-NextMed_0.pdf",
+      "cluster": "2025_ftc_nextmed",
+      "needs_fda_html_repull": false
+    },
+    {
+      "id": "fda-lyfe-rx-2025-09-09",
+      "date": "2025-09-09",
+      "agency": "FDA_CDER",
+      "entity_name": "Lyfe Rx",
+      "entity_dba": null,
+      "cms_or_case_id": null,
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lyfe-rx-09092025",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "telehealth_clinic",
+      "allegation_types": [
+        "misbranding_compounded_promo",
+        "misbranding_labeling"
+      ],
+      "product_classes": [
+        "compounded_semaglutide",
+        "compounded_tirzepatide"
+      ],
+      "excerpt": "Claims imply that your products are the same as an FDA-approved product when they are not.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2025-09-09_compounded_sameness",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-curex-716821-2025-09-09",
+      "date": "2025-09-09",
+      "agency": "FDA_CDER",
+      "entity_name": "Curex",
+      "entity_dba": null,
+      "cms_or_case_id": "716821",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/curex-716821-09092025",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "telehealth_clinic",
+      "allegation_types": [
+        "misbranding_compounded_promo",
+        "misbranding_labeling"
+      ],
+      "product_classes": [
+        "compounded_semaglutide",
+        "compounded_tirzepatide"
+      ],
+      "excerpt": "Same core sameness/approval implication language as Lyfe Rx cluster.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2025-09-09_compounded_sameness",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-healthy-male-716506-2025-09-09",
+      "date": "2025-09-09",
+      "agency": "FDA_CDER",
+      "entity_name": "Healthy Male",
+      "entity_dba": null,
+      "cms_or_case_id": "716506",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/healthy-male-716506-09092025",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "telehealth_clinic",
+      "allegation_types": [
+        "misbranding_compounded_promo",
+        "misbranding_labeling"
+      ],
+      "product_classes": [
+        "compounded_tirzepatide"
+      ],
+      "excerpt": "Same 502(a)/502(bb) misbranding theory as Lyfe/Curex.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2025-09-09_compounded_sameness",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-swisschems-695663-2024-12-10",
+      "date": "2024-12-10",
+      "agency": "FDA_CDER",
+      "entity_name": "Swisschems",
+      "entity_dba": null,
+      "cms_or_case_id": "695663",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/swisschems-695663-12102024",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo"
+      ],
+      "product_classes": [
+        "semaglutide",
+        "retatrutide"
+      ],
+      "excerpt": "Despite research chemicals only statements, website evidence establishes intended use as human drugs.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2024-12-10_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-summit-research-peptides-695607-2024-12-10",
+      "date": "2024-12-10",
+      "agency": "FDA_CDER",
+      "entity_name": "Summit Research Peptides",
+      "entity_dba": null,
+      "cms_or_case_id": "695607",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/summit-research-peptides-695607-12102024",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo"
+      ],
+      "product_classes": [
+        "semaglutide",
+        "retatrutide",
+        "cagrilintide",
+        "tirzepatide",
+        "mazdutide"
+      ],
+      "excerpt": "Product page quote in letter: Sema is a GLP-1 analog with therapeutic applications in type 2 diabetes and obesity.",
+      "confidence": "full-text",
+      "full_text_source": "EIN Presswire republication of FDA Summit letter 695607",
+      "cluster": "2024-12-10_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-xcel-research-694608-2024-12-10",
+      "date": "2024-12-10",
+      "agency": "FDA_CDER",
+      "entity_name": "Xcel Research LLC",
+      "entity_dba": null,
+      "cms_or_case_id": "694608",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/xcel-research-llc-694608-12102024",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug"
+      ],
+      "product_classes": [
+        "retatrutide",
+        "cagrilintide",
+        "mazdutide",
+        "semaglutide",
+        "survodutide",
+        "sermorelin"
+      ],
+      "excerpt": "Products listed as unapproved new drugs for interstate commerce.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2024-12-10_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-prime-peptides-695156-2024-12-10",
+      "date": "2024-12-10",
+      "agency": "FDA_CDER",
+      "entity_name": "Prime Vitality, Inc.",
+      "entity_dba": "Prime Peptides",
+      "cms_or_case_id": "695156",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/prime-vitality-inc-dba-prime-peptides-695156-12102024",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "RUO",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "intended_use_despite_ruo"
+      ],
+      "product_classes": [
+        "semaglutide",
+        "retatrutide"
+      ],
+      "excerpt": "RUO disclaimer rejected; human intended use from website/social.",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2024-12-10_ruo_wave",
+      "needs_fda_html_repull": true
+    },
+    {
+      "id": "fda-veronvy-694688-2024-12-10",
+      "date": "2024-12-10",
+      "agency": "FDA_CDER",
+      "entity_name": "Veronvy",
+      "entity_dba": null,
+      "cms_or_case_id": "694688",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/veronvy-694688-12102024",
+      "document_kind": "warning_letter",
+      "entity_type_hint": "other",
+      "allegation_types": [
+        "unapproved_new_drug",
+        "misbranding_labeling",
+        "oral_or_device_glp_knockoff"
+      ],
+      "product_classes": [
+        "oral_glp1"
+      ],
+      "excerpt": "Letter cites both 505(a)/301(d) and 502/301(a).",
+      "confidence": "excerpt-only",
+      "full_text_source": null,
+      "cluster": "2024-12-10_ruo_wave",
+      "needs_fda_html_repull": true
+    }
+  ]
+}
