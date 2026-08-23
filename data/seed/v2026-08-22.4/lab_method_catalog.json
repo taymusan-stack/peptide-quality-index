@@ -1,0 +1,939 @@
+{
+  "meta": {
+    "dataset": "pqi_lab_method_catalog",
+    "version": "2026-08-22.4",
+    "as_of": "2026-08-22",
+    "written_at_utc": "2026-08-23T02:00:00Z",
+    "supersedes": "2026-08-22.1",
+    "phase1_evidence_pack": "v2026-08-22.4-phase1-test-depth",
+    "seed_pilot_rows": 186,
+    "notes": [
+      "Informational only. Never invent COA results. No medical advice.",
+      "Score only analytes present on a report; null != pass.",
+      "commissioning_party is first-class for trust.",
+      "verified (product/lot) uses lab-portal ladder; separate from pharmacy_lists_peptide.",
+      "Standard vs add-on panels are separated; do not score catalog add-ons as present.",
+      "seed_observation reflects Phase 1 seed-vendor pilot (Panda/Prime/BioInfinity/Evolabs) only.",
+      "MZ Biolabs and Colmaric Analyticals have 0 seed-vendor report rows in that pilot."
+    ],
+    "default_lab_ids": [
+      "janoshik",
+      "mz_biolabs",
+      "colmaric"
+    ],
+    "verification_status_enum": [
+      "verified_on_lab_portal",
+      "vendor_pdf",
+      "client_pdf_only",
+      "unverified"
+    ],
+    "commissioning_party_enum": [
+      "vendor",
+      "buyer",
+      "group",
+      "unknown"
+    ],
+    "seed_observation_enum": [
+      "seen_on_seed",
+      "catalog_only",
+      "unknown"
+    ],
+    "usp_label_disclaimer": "USP chapter titles (e.g. USP <85>, USP <71>, USP <201>) appear in this catalog as method_label / usp_chapter_label strings only when a lab portal uses that language. They do NOT claim that any RUO lot, vendor product, or directory row meets a USP monograph, is sterile, is endotoxin-compliant, or is pharmaceutical-grade. Never treat a USP label as a pass.",
+    "directory_schema_fields": [
+      {
+        "field": "lab_id",
+        "populated_by": "lab match on report/hub",
+        "null_when": "lab unknown"
+      },
+      {
+        "field": "lab_name",
+        "populated_by": "display name from report/hub",
+        "null_when": "lab unknown"
+      },
+      {
+        "field": "methods_present",
+        "populated_by": "method tags stated on card/PDF/library (HPLC, MS, \u2026)",
+        "null_when": "empty list if not extractable"
+      },
+      {
+        "field": "analytes_present",
+        "populated_by": "analyte tags stated (purity, identity, endotoxin, amount, \u2026)",
+        "null_when": "empty list if not stated"
+      },
+      {
+        "field": "purity_pct",
+        "populated_by": "numeric purity when stated on sources used",
+        "null_when": "marketing-only %, blend without purity, portal PNG not OCR'd, amount-only SKU"
+      },
+      {
+        "field": "endotoxin",
+        "populated_by": "endotoxin value/statement when stated",
+        "null_when": "test not stated on sources used"
+      },
+      {
+        "field": "sterility_status",
+        "populated_by": "tested | not_tested | unknown from stated evidence",
+        "null_when": "use unknown; never invent pass"
+      },
+      {
+        "field": "strength_mg",
+        "populated_by": "numeric amount/content when stated",
+        "null_when": "amount not stated"
+      },
+      {
+        "field": "peptide_identity",
+        "populated_by": "labeled peptide identity on row",
+        "null_when": "non-peptide / unknown"
+      },
+      {
+        "field": "janoshik_task_number",
+        "populated_by": "Janoshik Task# when published",
+        "null_when": "non-Janoshik or key unpublished"
+      },
+      {
+        "field": "janoshik_unique_key",
+        "populated_by": "Janoshik unique key when published",
+        "null_when": "non-Janoshik or key unpublished"
+      },
+      {
+        "field": "verification_status",
+        "populated_by": "ladder rung only",
+        "null_when": "should not be null; use unverified"
+      },
+      {
+        "field": "commissioning_party",
+        "populated_by": "who commissioned the test",
+        "null_when": "use unknown"
+      },
+      {
+        "field": "pharmacy_lists_peptide",
+        "populated_by": "pharmacy-site listing only (not COA)",
+        "null_when": "always null for RUO pilot"
+      }
+    ],
+    "lab_page_refresh": {
+      "janoshik_services": "refreshed_via_curl_2026-08-23 (WebFetch timed out; curl OK \u2014 not Cloudflare-blocked this pass)",
+      "janoshik_verification": "refreshed_via_curl_2026-08-23",
+      "janoshik_c_peptides": "refreshed_via_curl_2026-08-23",
+      "janoshik_pricelist_examples": "BPC-157, GLP-1 blind, AOD-9604 LCMS+CHNS, endotoxin LAL, sterility TAMC+TYMC, heavy metals, CHNS",
+      "mz_coa_testing": "refreshed_webfetch_2026-08-23",
+      "mz_techniques": "refreshed_webfetch_2026-08-23",
+      "mz_coming_soon": "refreshed_webfetch_2026-08-23 \u2014 USP <85> endotoxin now available; USP <71> sterility framed early-2025",
+      "mz_about": "refreshed_webfetch_2026-08-23",
+      "colmaric_home": "refreshed_webfetch_2026-08-23",
+      "colmaric_about": "refreshed_webfetch_2026-08-23",
+      "colmaric_peptide_blog": "refreshed_webfetch_2026-08-23 \u2014 TLC/HPLC/MS",
+      "colmaric_dietary_supplements": "webfetch_timeout_2026-08-23 \u2014 ISO/USP <201> claims retained from prior catalog + search snippet; confidence medium"
+    }
+  },
+  "labs": [
+    {
+      "lab_id": "janoshik",
+      "name": "Janoshik Analytical",
+      "official_urls": {
+        "home": "https://janoshik.com/",
+        "services": "https://janoshik.com/services/",
+        "peptides_category": "https://janoshik.com/c/peptides/",
+        "verification": "https://janoshik.com/verification/",
+        "example_standard_sku": "https://janoshik.com/pricelist/bpc-157-analysis/",
+        "example_glp1_blind": "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/",
+        "example_aod_lcms_chns": "https://janoshik.com/pricelist/rhgh-fragment-or-aod-9604-lcmschns-analysis/",
+        "endotoxin_addon": "https://janoshik.com/pricelist/endotoxin-analysis-separate-vial-preferred-measurement-up-to-10-eu-vial/",
+        "sterility_addon": "https://janoshik.com/pricelist/sterility-testing-tamctymc/",
+        "heavy_metals_addon": "https://janoshik.com/pricelist/heavy-metals-screening-as-cd-pb-hg/",
+        "chns_addon": "https://janoshik.com/pricelist/chns-mass-report-standalone-test/"
+      },
+      "is_pqi_default": true,
+      "geography": "EU",
+      "source_refresh_confidence": "high",
+      "source_refresh_notes": "Services, verification, peptide category, and representative pricelist SKUs fetched via curl 2026-08-23. WebFetch timed out on services; curl returned live HTML (not CF challenge).",
+      "standard_panel": [
+        {
+          "assay_id": "janoshik_hplc_identity_amount_purity",
+          "analyte": "identity_amount_purity",
+          "method_label": "HPLC",
+          "method_codes": [
+            "hplc"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present",
+            "purity_pct",
+            "strength_mg",
+            "peptide_identity"
+          ],
+          "null_when": "Card/PDF does not state purity and/or amount; blends may omit peptide purity (e.g. GLOW SKU purity-not-included); portal match alone does not fill purity_pct (PNG not OCR'd).",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "seen_on_seed",
+            "seed_lab_rows": 97,
+            "methods_present_counts": {
+              "HPLC": 82
+            },
+            "analytes_present_counts": {
+              "purity": 48,
+              "amount": 6,
+              "identity": 4
+            },
+            "notes": "Dominant on Panda+Prime; 15/97 Janoshik rows had empty methods_present; identity analyte tag sparse vs HPLC method tag."
+          },
+          "notes": "Typical peptide SKU (e.g. BPC-157): Testing method HPLC; result format mg/vial + peptide purity. Blind GLP-1 SKU same HPLC base for ID/amount/purity among Sema/Tirz/Reta.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/bpc-157-analysis/",
+            "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_hplc_purity",
+          "analyte": "purity",
+          "method_label": "HPLC",
+          "method_codes": [
+            "hplc"
+          ],
+          "directory_fields": [
+            "purity_pct",
+            "methods_present",
+            "analytes_present"
+          ],
+          "null_when": "Purity not numeric on sources used; marketing 99%+ ignored; blend purity-not-included SKUs; portal PNG-only.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "seen_on_seed",
+            "seed_lab_rows": 97,
+            "analytes_present_counts": {
+              "purity": 48
+            },
+            "notes": "purity analyte on 48/97 Janoshik rows; purity_pct still null on many portal-verified rows when hub omitted numeric %."
+          },
+          "notes": "Peptide purity via HPLC on standard peptide SKUs. Optional m/m purity format for raw API powders (alternative results format).",
+          "source_urls": [
+            "https://janoshik.com/pricelist/bpc-157-analysis/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_hplc_quantity",
+          "analyte": "quantity",
+          "method_label": "HPLC",
+          "method_codes": [
+            "hplc"
+          ],
+          "directory_fields": [
+            "strength_mg",
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Amount not stated on card/PDF.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "seen_on_seed",
+            "seed_lab_rows": 97,
+            "analytes_present_counts": {
+              "amount": 6
+            },
+            "notes": "amount analyte tag uncommon on hub cards even when HPLC present."
+          },
+          "notes": "mg/vial common for lyophilizate; HPLC is base quantity method on most peptide SKUs.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/bpc-157-analysis/"
+          ]
+        }
+      ],
+      "add_on_panels": [
+        {
+          "assay_id": "janoshik_ms_identity_sku_specific",
+          "analyte": "identity",
+          "method_label": "LCMS",
+          "method_codes": [
+            "lcms",
+            "ms"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present",
+            "peptide_identity"
+          ],
+          "null_when": "SKU is HPLC-only (most peptide SKUs); MS/LCMS not stated on card.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "seen_on_seed",
+            "seed_lab_rows": 97,
+            "methods_present_counts": {
+              "MS": 33
+            },
+            "analytes_present_counts": {
+              "identity": 4
+            },
+            "notes": "MS method tag on 33/97 rows but identity analyte only 4 \u2014 hub often tags MS without identity analyte string. Catalog: LCMS is explicit on some SKUs (e.g. AOD-9604 LCMS+CHNS), not automatic base."
+          },
+          "notes": "Not always on base peptide SKU. Example AOD-9604 LCMS+CHNS SKU: identification=LCMS, amount=CHNS, peptide purity=HPLC.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/rhgh-fragment-or-aod-9604-lcmschns-analysis/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_chns_amount",
+          "analyte": "quantity",
+          "method_label": "CHNS",
+          "method_codes": [
+            "chns"
+          ],
+          "directory_fields": [
+            "strength_mg",
+            "methods_present",
+            "analytes_present"
+          ],
+          "null_when": "CHNS not ordered / not stated on report.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "methods_present_counts": {},
+            "notes": "CHNS not observed in Phase 1 seed methods_present tags."
+          },
+          "notes": "Standalone CHNS mass report and/or add-on; framed as NPC (net peptide content) via N/S. Also amount method on AOD-9604 LCMS+CHNS SKU.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/chns-mass-report-standalone-test/",
+            "https://janoshik.com/pricelist/rhgh-fragment-or-aod-9604-lcmschns-analysis/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_lal_endotoxin",
+          "analyte": "endotoxin",
+          "method_label": "LAL",
+          "method_codes": [
+            "lal"
+          ],
+          "directory_fields": [
+            "endotoxin",
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Add-on not ordered or not stated on card/PDF. Not offered on oils, raw API powders, tablets, capsules.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "seen_on_seed",
+            "seed_lab_rows": 97,
+            "analytes_present_counts": {
+              "endotoxin": 41
+            },
+            "notes": "Endotoxin often stated on Panda/Prime Janoshik cards (~41 analyte tags; ~42 non-null endotoxin field). Still an add-on in catalog \u2014 presence on vendor card \u2260 automatic base panel."
+          },
+          "notes": "Finished products; standard LAL accurate up to ~10 EU/vial (above = estimate unless retested). Results EU/vial (lyophilizate) or EU/ml (solution).",
+          "source_urls": [
+            "https://janoshik.com/pricelist/endotoxin-analysis-separate-vial-preferred-measurement-up-to-10-eu-vial/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_tamc_tymc_sterility",
+          "analyte": "sterility",
+          "method_label": "TAMC+TYMC",
+          "method_codes": [
+            "tamc",
+            "tymc"
+          ],
+          "directory_fields": [
+            "sterility_status",
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Not ordered / not stated \u2192 sterility_status unknown or not_tested; never invent tested/pass.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "sterility_status_counts": {
+              "unknown": 66,
+              "not_tested": 31,
+              "tested": 0
+            },
+            "notes": "No Janoshik seed row had sterility_status=tested. Sole Phase 1 'tested' row was non-default lab (Prime Wolverine Blend / microbial_pcr)."
+          },
+          "notes": "Cultivation bioburden-style screen (TAMC+TYMC). Needs extra unopened units. Not USP <71> language on Janoshik portal. ~14d turnaround framing in prior catalog; confirm on live SKU if citing timing.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/sterility-testing-tamctymc/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_heavy_metals",
+          "analyte": "heavy_metals",
+          "method_label": "Heavy metals screening (As, Cd, Pb, Hg)",
+          "method_codes": [
+            "heavy_metals"
+          ],
+          "directory_fields": [
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Not stated; no dedicated heavy_metals scalar field in directory schema \u2014 only analytes_present tag.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "seen_on_seed",
+            "seed_lab_rows": 97,
+            "analytes_present_counts": {
+              "heavy_metals": 1
+            },
+            "notes": "Essentially absent on seed cards (1/97)."
+          },
+          "notes": "As/Cd/Pb/Hg screen as harm-reduction add-on.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/heavy-metals-screening-as-cd-pb-hg/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_tfa",
+          "analyte": "tfa",
+          "method_label": "TFA analysis",
+          "method_codes": [
+            "tfa"
+          ],
+          "directory_fields": [
+            "analytes_present"
+          ],
+          "null_when": "Not stated; no dedicated tfa field in directory schema.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "notes": "Not observed on seed analyte tags."
+          },
+          "notes": "Add-on on peptide SKUs (e.g. GLP-1 blind); results mg/vial framing on portal.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_ph",
+          "analyte": "ph",
+          "method_label": "pH Measurement",
+          "method_codes": [
+            "ph"
+          ],
+          "directory_fields": [
+            "analytes_present"
+          ],
+          "null_when": "Not stated; no dedicated ph field in directory schema.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "notes": "Not observed on seed analyte tags."
+          },
+          "notes": "Optional add-on on peptide SKUs.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_contamination_screen",
+          "analyte": "contamination_screen",
+          "method_label": "LCMS/GCMS screening",
+          "method_codes": [
+            "lcms",
+            "gcms"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present"
+          ],
+          "null_when": "Not stated on report/card.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "notes": "GCMS/LCMS contamination not tagged on seed methods beyond generic MS."
+          },
+          "notes": "Harm-reduction catalog: GCMS/LCMS screening for contamination; LCMS peptide-contamination screen limited to peptides on Janoshik price list.",
+          "source_urls": [
+            "https://janoshik.com/services/",
+            "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_variance_testing",
+          "analyte": "variance_testing",
+          "method_label": "Variance Testing",
+          "method_codes": [
+            "variance"
+          ],
+          "directory_fields": [],
+          "null_when": "No directory scalar; multi-piece same-batch option only.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "notes": "Catalog add-on; not a Phase 1 scored field."
+          },
+          "notes": "Multi-piece same batch option on peptide SKUs.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/"
+          ]
+        },
+        {
+          "assay_id": "janoshik_raw_data",
+          "analyte": "raw_data",
+          "method_label": "Raw Data",
+          "method_codes": [
+            "raw_data"
+          ],
+          "directory_fields": [],
+          "null_when": "Paid deliverable; not a scored analyte.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 97,
+            "notes": "Catalog paid add-on."
+          },
+          "notes": "Paid add-on for raw instrument data.",
+          "source_urls": [
+            "https://janoshik.com/pricelist/common-glp-1-peptide-blind-test-semaglutide-tirzepatide-and-retatrutide/"
+          ]
+        }
+      ],
+      "public_verification": {
+        "available": true,
+        "mechanism": "task_number_plus_unique_key_and_or_qr",
+        "url": "https://janoshik.com/verification/",
+        "fields_required": [
+          "task_number",
+          "unique_key"
+        ],
+        "directory_fields": [
+          "janoshik_task_number",
+          "janoshik_unique_key",
+          "verification_status"
+        ],
+        "notes": "Portal copy: verify authenticity of any test conducted. QR on report / Verify tab. Verifies lab record for that task; does not prove every retail vial matches unless buyer aliquot tested. Phase 1: 63 verified_on_lab_portal (Panda 31 + Prime 32)."
+      },
+      "explicit_exclusions_on_standard_panel": [],
+      "client_issued_model": "Client (vendor/buyer/group) commissions and ships sample; lab issues report.",
+      "license_claims": [],
+      "accreditation_claims": [],
+      "limitations": [
+        "Many peptide SKUs HPLC-only (no MS identity) unless SKU explicitly includes LCMS",
+        "Endotoxin/sterility/heavy metals/TFA/pH/CHNS/contamination/variance/raw data are add-ons",
+        "TAMC+TYMC is not USP <71> language on portal",
+        "No DEA/ISO claim observed on pages opened this pass",
+        "Portal match upgrades provenance, not assay completeness"
+      ]
+    },
+    {
+      "lab_id": "mz_biolabs",
+      "name": "MZ Biolabs",
+      "official_urls": {
+        "home": "https://www.mzbiolabs.com/",
+        "coa_testing": "https://www.mzbiolabs.com/mzbiolabs/coa-testing/",
+        "techniques": "https://www.mzbiolabs.com/mzbiolabs/our-techniques/",
+        "about": "https://www.mzbiolabs.com/mzbiolabs/about-us/",
+        "coming_soon_endotoxin_sterility": "https://mzbiolabs.com/mzbiolabs/coming-soon/"
+      },
+      "is_pqi_default": true,
+      "geography": "US",
+      "address": "2102 N Country Club Rd, Suite C, Tucson, AZ 85716",
+      "source_refresh_confidence": "high",
+      "source_refresh_notes": "COA testing, techniques, about, and coming-soon pages re-fetched 2026-08-23.",
+      "standard_panel": [
+        {
+          "assay_id": "mz_hplc_uv_ms_identity",
+          "analyte": "identity",
+          "method_label": "HPLC-UV + MS",
+          "method_codes": [
+            "hplc_uv",
+            "ms"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present",
+            "peptide_identity"
+          ],
+          "null_when": "No MZ seed rows; when present, null if identity not stated on client PDF.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero MZ Biolabs rows in Phase 1 seed pilot."
+          },
+          "notes": "Portal: HPLC with UV detection combined with mass spectrometry to confirm identity and specifications. Instruments: Waters Acquity UPLC+UV; Bruker Compact QTOF; Thermo LTQ Velos Pro + nanoAcquity.",
+          "source_urls": [
+            "https://www.mzbiolabs.com/mzbiolabs/coa-testing/",
+            "https://www.mzbiolabs.com/mzbiolabs/our-techniques/"
+          ]
+        },
+        {
+          "assay_id": "mz_hplc_uv_purity",
+          "analyte": "purity",
+          "method_label": "HPLC-UV",
+          "method_codes": [
+            "hplc_uv"
+          ],
+          "directory_fields": [
+            "purity_pct",
+            "methods_present",
+            "analytes_present"
+          ],
+          "null_when": "Purity not numeric on client PDF; no MZ seed rows yet.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero MZ seed rows."
+          },
+          "notes": "Purity COAs for raw powders and liquids. Explicitly does NOT include activity, sterility/endotoxins, heavy metals, or pH.",
+          "source_urls": [
+            "https://www.mzbiolabs.com/mzbiolabs/coa-testing/"
+          ]
+        },
+        {
+          "assay_id": "mz_hplc_uv_ms_quantity",
+          "analyte": "quantity",
+          "method_label": "HPLC-UV + MS",
+          "method_codes": [
+            "hplc_uv",
+            "ms"
+          ],
+          "directory_fields": [
+            "strength_mg",
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Quantification not stated on PDF.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero MZ seed rows."
+          },
+          "notes": "Quantification offered for solutions, tablets, and capsules in addition to powders/liquids purity.",
+          "source_urls": [
+            "https://www.mzbiolabs.com/mzbiolabs/coa-testing/"
+          ]
+        }
+      ],
+      "add_on_panels": [
+        {
+          "assay_id": "mz_usp85_endotoxin",
+          "analyte": "endotoxin",
+          "method_label": "USP <85>",
+          "method_codes": [
+            "usp_85",
+            "lal"
+          ],
+          "directory_fields": [
+            "endotoxin",
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Not on standard purity COA; only if separate endotoxin report states result.",
+          "is_standard": false,
+          "usp_chapter_label": "USP <85>",
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero MZ seed rows; USP label is portal language only."
+          },
+          "notes": "Coming-soon page: Bacterial Endotoxin (LPS) testing using USP <85> methods; 'now available for injection vials and certain raw materials.' LABEL ONLY \u2014 does not claim RUO lots meet USP monographs.",
+          "source_urls": [
+            "https://mzbiolabs.com/mzbiolabs/coming-soon/"
+          ]
+        },
+        {
+          "assay_id": "mz_usp71_sterility",
+          "analyte": "sterility",
+          "method_label": "USP <71>",
+          "method_codes": [
+            "usp_71"
+          ],
+          "directory_fields": [
+            "sterility_status",
+            "analytes_present",
+            "methods_present"
+          ],
+          "null_when": "Not on standard purity COA; sterility_status stays unknown/not_tested unless separate report.",
+          "is_standard": false,
+          "usp_chapter_label": "USP <71>",
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero MZ seed rows; USP label is portal language only."
+          },
+          "notes": "Coming-soon page: sterility testing available early 2025 using USP <71> methods. Confirm current order path. LABEL ONLY \u2014 not a monograph claim for RUO lots.",
+          "source_urls": [
+            "https://mzbiolabs.com/mzbiolabs/coming-soon/"
+          ]
+        }
+      ],
+      "explicit_exclusions_on_standard_panel": [
+        "activity",
+        "sterility",
+        "endotoxins",
+        "heavy_metals",
+        "ph"
+      ],
+      "public_verification": {
+        "available": false,
+        "mechanism": null,
+        "url": null,
+        "fields_required": [],
+        "directory_fields": [
+          "verification_status"
+        ],
+        "notes": "No public verification portal observed; client-issued PDF model. Ladder typically vendor_pdf or client_pdf_only."
+      },
+      "client_issued_model": "Lab serves submitting client; buyer verification of vendor PDF is weak without lab reconfirm or buyer-commissioned test.",
+      "license_claims": [
+        {
+          "type": "US_DEA_Schedule_III",
+          "number": "RP0584676",
+          "source_page": "https://www.mzbiolabs.com/",
+          "notes": "Homepage states DEA licensed: RP0584676; COA page restates US DEA Schedule III licensed facility."
+        }
+      ],
+      "accreditation_claims": [],
+      "instrumentation_notes": [
+        "Waters Acquity UPLC + UV",
+        "Bruker Compact QTOF (resolution ~20,000; optional MS2)",
+        "Thermo LTQ Velos Pro + Waters nanoAcquity"
+      ],
+      "limitations": [
+        "Standard purity COA excludes activity/sterility/endotoxins/HM/pH",
+        "No public QR/portal",
+        "DEA Schedule III scope may limit accepted analytes",
+        "USP <85>/<71> are add-on labels only \u2014 not RUO monograph compliance",
+        "Zero seed-vendor COA rows in Phase 1 pilot"
+      ]
+    },
+    {
+      "lab_id": "colmaric",
+      "name": "Colmaric Analyticals",
+      "official_urls": {
+        "home": "https://www.colmaricanalyticals.com/",
+        "about": "https://www.colmaricanalyticals.com/about-us/",
+        "peptide_blog": "https://www.colmaricanalyticals.com/understanding-peptides-and-the-importance-of-analytical-testing/",
+        "dietary_supplements": "https://www.colmaricanalyticals.com/dietary-supplements-industry/",
+        "life_science": "https://www.colmaricanalyticals.com/life-science-and-pharmaceuticals-industry/"
+      },
+      "is_pqi_default": true,
+      "geography": "US",
+      "source_refresh_confidence": "medium_high",
+      "source_refresh_notes": "Home, about, peptide blog refreshed via WebFetch 2026-08-23. Dietary-supplements page timed out; ISO/USP identification labels retained as site claims with medium confidence pending scope-doc check.",
+      "standard_panel": [
+        {
+          "assay_id": "colmaric_tlc_identity",
+          "analyte": "identity",
+          "method_label": "TLC",
+          "method_codes": [
+            "tlc"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present",
+            "peptide_identity"
+          ],
+          "null_when": "Method not stated on client PDF; no Colmaric seed rows.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero Colmaric rows in Phase 1 seed pilot."
+          },
+          "notes": "Peptide blog: TLC often used as quick identity / major impurity screen. Framed for manufacturers/distributors QC \u2014 not safety/efficacy determination.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/understanding-peptides-and-the-importance-of-analytical-testing/"
+          ]
+        },
+        {
+          "assay_id": "colmaric_hplc_purity",
+          "analyte": "purity",
+          "method_label": "HPLC",
+          "method_codes": [
+            "hplc"
+          ],
+          "directory_fields": [
+            "purity_pct",
+            "methods_present",
+            "analytes_present"
+          ],
+          "null_when": "Purity not numeric on PDF; request-a-quote model.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero Colmaric seed rows."
+          },
+          "notes": "Peptide blog: HPLC for more detailed purity/impurity levels. Home also lists HPLC for life-science/pharma QC.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/understanding-peptides-and-the-importance-of-analytical-testing/",
+            "https://www.colmaricanalyticals.com/"
+          ]
+        },
+        {
+          "assay_id": "colmaric_ms_identity",
+          "analyte": "identity",
+          "method_label": "MS",
+          "method_codes": [
+            "ms"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present",
+            "peptide_identity"
+          ],
+          "null_when": "MS not stated on PDF.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Zero Colmaric seed rows."
+          },
+          "notes": "Peptide blog: mass spectrometry to verify molecular weight and structural characteristics. Client needs may vary which techniques are run.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/understanding-peptides-and-the-importance-of-analytical-testing/"
+          ]
+        },
+        {
+          "assay_id": "colmaric_quantity_quote",
+          "analyte": "quantity",
+          "method_label": "request_quote",
+          "method_codes": [],
+          "directory_fields": [
+            "strength_mg"
+          ],
+          "null_when": "Quantity method details not fully public; quote-driven.",
+          "is_standard": true,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "unknown",
+            "seed_lab_rows": 0,
+            "notes": "Public peptide pages emphasize identity/purity; quantity SKU details not fully published."
+          },
+          "notes": "Request-a-quote / discovery-call model; results by call + email PDF.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/"
+          ]
+        }
+      ],
+      "add_on_panels": [
+        {
+          "assay_id": "colmaric_heavy_metals_industry",
+          "analyte": "heavy_metals",
+          "method_label": "Heavy metals testing",
+          "method_codes": [
+            "heavy_metals"
+          ],
+          "directory_fields": [
+            "analytes_present"
+          ],
+          "null_when": "Not stated on peptide COA; industry capability claim, not peptide-SKU standard.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Listed on home under dietary supplements / food capabilities; not observed as peptide seed method."
+          },
+          "notes": "Home page lists heavy metals testing under dietary supplements and food industries. Not confirmed as default peptide panel.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/"
+          ]
+        },
+        {
+          "assay_id": "colmaric_microbiology_industry",
+          "analyte": "microbiology",
+          "method_label": "Microbiology testing",
+          "method_codes": [
+            "microbiology"
+          ],
+          "directory_fields": [
+            "sterility_status",
+            "analytes_present"
+          ],
+          "null_when": "Not stated on peptide COA.",
+          "is_standard": false,
+          "usp_chapter_label": null,
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Industry capability on home; not peptide seed evidence."
+          },
+          "notes": "Home lists microbiology testing for supplements/food. Do not equate to USP <71> sterility for RUO peptides.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/"
+          ]
+        },
+        {
+          "assay_id": "colmaric_usp_identification_labels",
+          "analyte": "identity",
+          "method_label": "USP identification (site claim)",
+          "method_codes": [
+            "usp_compendial_id"
+          ],
+          "directory_fields": [
+            "methods_present",
+            "analytes_present"
+          ],
+          "null_when": "Scope for research-peptide methods not verified; treat as label/claim only.",
+          "is_standard": false,
+          "usp_chapter_label": "USP <201>",
+          "seed_observation": {
+            "status": "catalog_only",
+            "seed_lab_rows": 0,
+            "notes": "Dietary-supplements page (prior/search) lists TLC USP <201>, FT-IR USP <197A> among ID tests \u2014 not peptide monograph compliance."
+          },
+          "notes": "LABEL ONLY. Site discusses raw materials analysis by USP compendial methods and ID techniques such as TLC USP <201>. Never claim RUO peptide lots meet USP monographs. Dietary-supplements page fetch timed out this pass \u2014 medium confidence.",
+          "source_urls": [
+            "https://www.colmaricanalyticals.com/",
+            "https://www.colmaricanalyticals.com/dietary-supplements-industry/"
+          ]
+        }
+      ],
+      "explicit_exclusions_on_standard_panel": [],
+      "public_verification": {
+        "available": false,
+        "mechanism": null,
+        "url": null,
+        "fields_required": [],
+        "directory_fields": [
+          "verification_status"
+        ],
+        "notes": "Results by call + email PDF; no public COA portal observed."
+      },
+      "client_issued_model": "Client-commissioned CRO. Discovery call \u2192 project \u2192 call + email PDF.",
+      "license_claims": [],
+      "accreditation_claims": [
+        {
+          "type": "ISO_IEC_claimed_on_site",
+          "number": null,
+          "source_page": "https://www.colmaricanalyticals.com/",
+          "notes": "Home: 'ISO/IEC-certified testing lab' under dietary supplements. Scope for research-peptide methods NOT verified this pass \u2014 do not invent accreditation."
+        }
+      ],
+      "limitations": [
+        "Less transparent public method SKUs than Janoshik",
+        "ISO claim needs scope document check",
+        "No QR verification observed",
+        "USP chapter mentions are labels only \u2014 not RUO monograph claims",
+        "Zero seed-vendor COA rows in Phase 1 pilot",
+        "why_default: repeatedly named with Janoshik + MZ in secondary community indexes as US CRO third option"
+      ],
+      "why_default": "Repeatedly named with Janoshik + MZ in secondary community indexes as US CRO third option."
+    }
+  ]
+}
