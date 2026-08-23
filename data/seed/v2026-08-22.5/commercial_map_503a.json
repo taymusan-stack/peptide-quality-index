@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "dataset": "pqi_phase2_503_commercial_map",
+    "version": "2026-08-22.5-phase2-503",
+    "as_of": "2026-08-22",
+    "scraped_at": "2026-08-22T19:30:00-07:00",
+    "n_target": 12,
+    "n_collected": 12,
+    "n_503a": 6,
+    "n_503b": 6,
+    "hard_walls": [
+      "entity_type 503A|503B only",
+      "pharmacy_lists_peptide != verified",
+      "informational only; no invented prices/COAs/registration",
+      "Phase 3 OFF; no RUO re-scrape; no Sep crawl; no mass lot scrape"
+    ],
+    "stop_rule": "Reached N=12 with public sell-direct/price signals on all included rows; stop rule (5 consecutive no-signal) not triggered.",
+    "fda_list_status": "needs_fda_repull \u2014 registered outsourcing facilities page returned HTTP 401 from research env",
+    "discovery_hints": [
+      "https://batchguild.com/pharmacies/ (hint only; types re-verified on facility sites)",
+      "/workspace/pqi-briefs/machine-readable/enforcement_watch.json (no usable 503A/503B name seeds; all RUO/telehealth/other)"
+    ],
+    "notes": [
+      "Informational only. Not legal or medical advice.",
+      "Prefer fewer solid sourced rows over inventing \u2014 N=12 achieved with sourced facility pages.",
+      "Dual-operator brands may appear once per mapped facility type (Anazao 503A+503B; Belmar 503A+503B; Olympia 503A+503B)."
+    ],
+    "entity_type_filter": "503A"
+  },
+  "rows": [
+    {
+      "id": "503a-hallandale-pharmacy-fl",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503A",
+      "legal_name": "Hallandale Pharmacy",
+      "trade_name": "Hallandale Pharmacy",
+      "primary_url": "https://hallandalerx.com/",
+      "states": [
+        "FL"
+      ],
+      "fda_registration_posture": "self_claimed_503A_state_regulated_usp; not claimed as 503B on facility about page",
+      "fda_source_url": null,
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://hallandalerx.com/about/",
+      "price_posture": "not_public",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "semaglutide",
+        "tirzepatide",
+        "sermorelin"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "PCAB logo displayed on site; no public lot/COA portal observed on sampled pages.",
+      "confidence": "high",
+      "notes": "About page: 'As a 503A designated pharmacy, we are held to the standards of USP.' Product catalog lists Semaglutide/Tirzepatide SKUs with strengths/sizes but no dollar prices. Peptide Therapy category publicly lists Sermorelin forms. BatchGuild discovery labeled 503B \u2014 overridden by facility self-ID as 503A. Listing\u2260verified.",
+      "data_quality": "facility_site_primary; FDA list not independently confirmed (needs_fda_repull N/A for 503A)"
+    },
+    {
+      "id": "503a-belmar-pharmacy",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503A",
+      "legal_name": "Belmar Pharmacy (Belmar Pharma Solutions)",
+      "trade_name": "Belmar Pharmacy",
+      "primary_url": "https://www.belmarpharmasolutions.com/discover/about-belmar/belmar-503a-compounding-pharmacy/",
+      "states": [
+        "CO",
+        "FL",
+        "KS",
+        "AZ",
+        "WI"
+      ],
+      "fda_registration_posture": "self_claimed_503A_multi_facility; state BOP primary; separate 503B entity exists under same parent",
+      "fda_source_url": null,
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://www.belmarpharmasolutions.com/discover/about-belmar/belmar-503a-compounding-pharmacy/",
+      "price_posture": "quote_only",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "peptides_unspecified",
+        "GLPs_unspecified"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "Site claims continuous independent lab testing of ingredients/compounds; no public lot-level COA portal observed.",
+      "confidence": "high",
+      "notes": "Explicit 503A page: six 503A facilities (Golden CO, Odessa FL, Wichita KS, Youngtown AZ, Madison WI; page also references sixth). States sterile injectables for testosterone, GLPs, peptides. Catalog/pricing via contact only. Ships 50 states per site. Listing\u2260verified.",
+      "data_quality": "facility_site_primary"
+    },
+    {
+      "id": "503a-olympia-pharmacy",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503A",
+      "legal_name": "Olympia Pharmacy",
+      "trade_name": "Olympia Compounding Pharmacy",
+      "primary_url": "https://www.olympiapharmacy.com/503a-pharmacy/",
+      "states": [
+        "FL"
+      ],
+      "fda_registration_posture": "self_claimed_503A_patient_specific; affiliated 503B is Olympia Pharmaceuticals",
+      "fda_source_url": null,
+      "sell_direct": "patient_via_provider",
+      "sell_direct_evidence_url": "https://www.olympiapharmacy.com/503a-pharmacy/",
+      "price_posture": "not_public",
+      "example_public_prices": [],
+      "peptides_listed": [],
+      "pharmacy_lists_peptide": false,
+      "coa_hygiene_note": "Site emphasizes cGMP-aligned operations across 503A/503B; no public patient COA lookup observed.",
+      "confidence": "high",
+      "notes": "Dedicated 503A page: patient-specific Rx only; non-sterile at 503A; most sterile injectables at affiliated 503B. Patients directed to partner clinics. Weight management specialty listed; no named peptide SKUs on 503A page sample. Sell-direct signal via patient intake / partner clinic path.",
+      "data_quality": "facility_site_primary"
+    },
+    {
+      "id": "503a-tailor-made-compounding-ky",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503A",
+      "legal_name": "Tailor Made Compounding",
+      "trade_name": "Tailor Made Compounding",
+      "primary_url": "https://tailormadecompounding.com/",
+      "states": [
+        "KY"
+      ],
+      "fda_registration_posture": "self_claimed_503A_compounding_pharmacy",
+      "fda_source_url": null,
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://tailormadecompounding.com/",
+      "price_posture": "not_public",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "peptide_therapies_category"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "No public lot/COA portal observed on homepage sample.",
+      "confidence": "medium",
+      "notes": "Homepage explicitly badges '503A Compounding Pharmacy'; mentions HRT and peptide therapies; licensed in 46 states per site; prescriber portal / network. No public SKU prices. Site footer/content also showed unrelated third-party spam text in fetch \u2014 treat homepage claims carefully; confidence medium. Listing\u2260verified.",
+      "data_quality": "facility_site_primary; homepage content hygiene issue noted"
+    },
+    {
+      "id": "503a-red-rock-compounding-ut",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503A",
+      "legal_name": "Red Rock Compounding Pharmacy",
+      "trade_name": "Red Rock Home Pharmacy / Red Rock Pharmacy",
+      "primary_url": "https://redrockhomepharmacy.com/",
+      "states": [
+        "UT"
+      ],
+      "fda_registration_posture": "self_claimed_503A; licensed in 49 states per quality page",
+      "fda_source_url": null,
+      "sell_direct": "patient_via_provider",
+      "sell_direct_evidence_url": "https://redrockhomepharmacy.com/quality",
+      "price_posture": "not_public",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "sermorelin"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "Quality page: third-party lab testing for potency/sterility/endotoxin/stability; 'Medication Lot Verification' section present (observe only).",
+      "confidence": "high",
+      "notes": "Quality page: 'As a 503A compounding pharmacy licensed in 49 states' + USP 795/797/800. Products page lists Sermorelin among injectables/IV options. No public dollar prices observed. Distinct from unrelated LTC redrockrx.com. Listing\u2260verified.",
+      "data_quality": "facility_site_primary"
+    },
+    {
+      "id": "503a-anazaohealth-tampa",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503A",
+      "legal_name": "AnazaoHealth Corporation (Tampa 503A pharmacy)",
+      "trade_name": "AnazaoHealth",
+      "primary_url": "https://anazaohealth.com/",
+      "states": [
+        "FL"
+      ],
+      "fda_registration_posture": "self_claimed_503A_traditional_compounding_pharmacy_tampa; separate Las Vegas 503B facility under same brand",
+      "fda_source_url": null,
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://anazaohealth.com/iv-therapy",
+      "price_posture": "quote_only",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "sermorelin_acetate"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "No public COA portal on sampled pages; contact/sales for full prep list.",
+      "confidence": "high",
+      "notes": "About: 54,000 sq ft traditional 503A in Tampa. IV & Injection Therapy page explicitly lists '503A Patient-Specific Preparations' including Sermorelin Acetate. Pricing via CS/email. Listing\u2260verified.",
+      "data_quality": "facility_site_primary"
+    }
+  ]
+}
