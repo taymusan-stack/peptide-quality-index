@@ -32,7 +32,9 @@ Verification mix:
 - `client_pdf_only` 1
 - `unverified` 2
 
-`verified` is derived. True only when `verification_status==verified_on_lab_portal`. 63 true / 123 false. Matches the portal count.
+`verification_status` enum is locked: `verified_on_lab_portal` | `vendor_pdf` | `client_pdf_only` | `unverified`. `vendor_pdf` is first-class. Do not collapse it to `client_pdf_only`.
+
+Derived `verified` / verified badge is true only when `verification_status == verified_on_lab_portal`. 63 true / 123 false. Matches the portal count. A vendor PDF is not the badge.
 
 Vendors in this pack:
 
@@ -51,10 +53,11 @@ Some rows still carry a `purity_pct` from a vendor hub or library table. That is
 
 ## Schema locks used here
 
-1. `verified` means lot/batch ID plus a lab match on the ladder (lab-portal key > lab PDF > vendor PDF). Never a pharmacy-listing sense.
-2. `pharmacy_lists_peptide` stays null on these RUO rows.
-3. Score only analytes present. `null != pass`. `commissioning_party` is first-class (`vendor` on every row here).
-4. Enforcement `confidence` is not on product rows. Join [`../v2026-08-22.1/enforcement_watch.json`](../v2026-08-22.1/enforcement_watch.json).
+1. `verification_status` enum: `verified_on_lab_portal` | `vendor_pdf` | `client_pdf_only` | `unverified`. `vendor_pdf` is first-class. Do not collapse it to `client_pdf_only`.
+2. Derived `verified` / verified badge is true only when `verification_status == verified_on_lab_portal`. Never a pharmacy-listing sense.
+3. `pharmacy_lists_peptide` stays null on these RUO rows.
+4. Score only analytes present. `null` purity / `null` analyte != pass. `commissioning_party` is first-class (`vendor` on every row here). Informational only.
+5. Enforcement `confidence` is not on product rows. Join [`../v2026-08-22.1/enforcement_watch.json`](../v2026-08-22.1/enforcement_watch.json).
 
 ## Held
 
