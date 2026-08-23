@@ -97,7 +97,7 @@ A method on the catalog is not a method on this lot. Missing method means we do 
 
 ## 6. Analytes present
 
-Score only analytes present on that report. `null` is not a pass.
+Score only analytes present on that report. `null ≠ pass`.
 
 A missing endotoxin line does not mean the lot passed endotoxin. A `null` purity field does not mean 99%. An empty identity tag does not mean the molecule was confirmed.
 
@@ -125,7 +125,7 @@ First ship has no vendor tiers and no vendor-level score.
 
 ## 9. Limits
 
-Portal match upgrades where the document lives. It does not upgrade assay completeness. A Lab portal row with `purity_pct = null` is correct.
+Portal match upgrades where the document lives. Portal ≠ assay completeness. A Lab portal row with `purity_pct = null` is correct.
 
 Do not OCR a portal PNG or a PDF image into numbers. If the source has no structured field, the field stays null. No OCR inventing numbers.
 
