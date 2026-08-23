@@ -17,4 +17,4 @@ Do not invent FDA list contents. `needs_repull` notes stay as Research wrote.
 - `commercial_map_503b.json` + `.csv`
 - `commercial_map_503_all.json` — optional rollup
 
-No invented rows, prices, or COAs. Files wait on Research FILE bodies.
+No invented rows, prices, or COAs. Pack bodies wait on frozen SoT FILE replies from `v2026-08-22.5-phase2-503-frozen/`. Prior non-frozen FILE bodies discarded.
