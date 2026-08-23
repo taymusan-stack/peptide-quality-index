@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "dataset": "pqi_phase1_test_depth",
+    "version": "v2026-08-22.4-phase1-test-depth",
+    "as_of": "2026-08-22",
+    "written_at_utc": "2026-08-23T01:35:00Z",
+    "sources": [
+      "/workspace/pqi-briefs/machine-readable/lab_method_catalog.json",
+      "/workspace/pqi-briefs/02-lab-method-catalog.md",
+      "/workspace/pqi-briefs/03-competitor-hygiene.md",
+      "/workspace/pqi-briefs/machine-readable/v2026-08-22.2/product_lot_coa_pilot.json",
+      "/workspace/pqi-briefs/machine-readable/v2026-08-22.2/pilot_coverage.md",
+      "/workspace/pqi-briefs/machine-readable/v2026-08-22.2-portal/product_lot_coa_pilot_merged.json",
+      "/workspace/pqi-briefs/machine-readable/v2026-08-22.2-portal/portal_recheck.md",
+      "/workspace/pqi-briefs/machine-readable/v2026-08-22.2-portal/portal_recheck_results.json"
+    ],
+    "lab_page_refresh": {
+      "mz_coa_testing": "fetched_2026-08-23 \u2014 HPLC-UV+MS; purity COA excludes activity/sterility/endotoxins/HM/pH",
+      "mz_techniques": "fetched_2026-08-23 \u2014 Waters Acquity UPLC+UV; Bruker Compact QTOF; Thermo LTQ Velos Pro",
+      "colmaric_peptide_blog": "fetched_2026-08-23 \u2014 TLC/HPLC/MS framed for manufacturers/distributors",
+      "janoshik_services": "fetch_blocked_cloudflare_2026-08-23 \u2014 used on-disk lab_method_catalog v2026-08-22.1"
+    },
+    "notes": [
+      "Informational only. No medical advice. No invented COA numbers.",
+      "Seed vendors only: panda_peptides, prime_peptides, bioinfinity_lab, evolabs_research.",
+      "Default labs catalog: janoshik, mz_biolabs, colmaric \u2014 MZ and Colmaric have 0 seed-vendor report rows this pilot.",
+      "null != pass."
+    ]
+  },
+  "row_counts": {
+    "total": 186,
+    "by_vendor": {
+      "panda_peptides": 34,
+      "bioinfinity_lab": 47,
+      "evolabs_research": 62,
+      "prime_peptides": 43
+    },
+    "by_lab_name": {
+      "Janoshik Analytical": 97,
+      "ILS Laboratories": 3,
+      "Verum Analytics": 46,
+      "unknown": 3,
+      "Kovera Labs": 28,
+      "Horizon Analytical": 1,
+      "Bioviridian": 3,
+      "Freedom Diagnostics": 3,
+      "Accumark Labs": 1,
+      "Vanguard Laboratory": 1
+    },
+    "by_verification_status": {
+      "verified_on_lab_portal": 63,
+      "vendor_pdf": 120,
+      "unverified": 2,
+      "client_pdf_only": 1
+    },
+    "by_verification_status_vendor": {
+      "bioinfinity_lab|unverified": 1,
+      "bioinfinity_lab|vendor_pdf": 46,
+      "evolabs_research|client_pdf_only": 1,
+      "evolabs_research|unverified": 1,
+      "evolabs_research|vendor_pdf": 60,
+      "panda_peptides|vendor_pdf": 3,
+      "panda_peptides|verified_on_lab_portal": 31,
+      "prime_peptides|vendor_pdf": 11,
+      "prime_peptides|verified_on_lab_portal": 32
+    },
+    "by_data_quality": {
+      "complete_lot_coa": 183,
+      "product_price_only": 3
+    },
+    "by_commissioning_party": {
+      "vendor": 186
+    },
+    "portal_recheck_attempts": 77,
+    "portal_match": 63,
+    "portal_fail": 0,
+    "portal_key_missing": 2,
+    "portal_skipped_non_janoshik": 12
+  },
+  "methods_present_by_lab_name": {
+    "Janoshik Analytical": {
+      "HPLC": 82,
+      "MS": 33
+    },
+    "ILS Laboratories": {
+      "HPLC": 3
+    },
+    "Verum Analytics": {
+      "HPLC-UV": 46,
+      "MS": 46
+    },
+    "Kovera Labs": {
+      "HPLC": 27,
+      "MS": 26,
+      "LC-MS": 1
+    },
+    "Horizon Analytical": {
+      "HPLC": 1
+    },
+    "Bioviridian": {
+      "HPLC": 3
+    },
+    "Freedom Diagnostics": {
+      "HPLC": 3
+    },
+    "Accumark Labs": {
+      "HPLC": 1
+    },
+    "Vanguard Laboratory": {
+      "HPLC": 1
+    },
+    "unknown": {
+      "HPLC": 1,
+      "PCR": 1
+    }
+  },
+  "analytes_present_by_lab_name": {
+    "Janoshik Analytical": {
+      "amount": 6,
+      "purity": 48,
+      "endotoxin": 41,
+      "identity": 4,
+      "heavy_metals": 1
+    },
+    "ILS Laboratories": {
+      "purity": 3
+    },
+    "Verum Analytics": {
+      "purity": 46
+    },
+    "Kovera Labs": {
+      "purity": 1,
+      "net_content": 1,
+      "identity": 1,
+      "endotoxin": 1
+    },
+    "Horizon Analytical": {
+      "purity": 1,
+      "endotoxin": 1
+    },
+    "Bioviridian": {
+      "purity": 3,
+      "endotoxin": 2
+    },
+    "Freedom Diagnostics": {
+      "purity": 3,
+      "endotoxin": 3
+    },
+    "Accumark Labs": {
+      "purity": 1,
+      "endotoxin": 1
+    },
+    "Vanguard Laboratory": {
+      "purity": 1,
+      "endotoxin": 1
+    },
+    "unknown": {
+      "purity": 1,
+      "endotoxin": 1,
+      "microbial_pcr": 1
+    }
+  },
+  "null_counts": {
+    "purity_pct_null": 78,
+    "purity_pct_null_by_verification_status": {
+      "client_pdf_only|null=False": 1,
+      "unverified|null=True": 2,
+      "vendor_pdf|null=False": 60,
+      "vendor_pdf|null=True": 60,
+      "verified_on_lab_portal|null=False": 47,
+      "verified_on_lab_portal|null=True": 16
+    },
+    "endotoxin_null": 134,
+    "methods_present_empty": 18,
+    "analytes_present_empty": 64,
+    "pharmacy_lists_peptide_null": 186,
+    "sterility_status": {
+      "not_tested": 34,
+      "unknown": 151,
+      "tested": 1
+    },
+    "portal_verified_rows": 63,
+    "portal_verified_with_vendor_page_purity": 47,
+    "portal_verified_purity_null": 16,
+    "portal_structured_purity_fields": 0
+  }
+}
