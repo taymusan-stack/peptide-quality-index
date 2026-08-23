@@ -1,6 +1,6 @@
 # Phase 2 — 503A / 503B commercial map (brief for Chief lock)
 
-**Status:** DRAFT — Research must not collect until Chief locks.
+**Status:** LOCKED by Chief 2026-08-22 — N=12
 **Author:** PQI Strategist
 **As of:** 2026-08-22
 
@@ -21,7 +21,7 @@ Informational map so 503A and 503B Coming stubs can become real boards later wit
 5. **Optional hygiene note** — any public lot/COA language (observe only; not RUO portal verify).
 
 ## Sample size (proposed — Chief may trim)
-- **Pilot N:** 12–20 facilities total, split roughly even 503A vs 503B if inventory allows.
+- **Pilot N:** 12 facilities total, split roughly even 503A vs 503B if inventory allows.
 - **Seed preference:** start from any 503A/503B names already in enforcement_watch / prior briefs; fill gaps from public FDA registration lists + pharmacy sites.
 - **Stop rule:** stop at N or when 5 consecutive candidates lack any public sell-direct/price signal — document gaps, do not invent.
 
@@ -48,4 +48,4 @@ Informational map so 503A and 503B Coming stubs can become real boards later wit
 Strategist can specify board columns; Copy can write stubs→live; Tech can stub schema without invented rows.
 
 ## Start condition
-Chief reply "locked" (or trimmed lock). Strategist then hands Research. Not before.
+Research may start.
