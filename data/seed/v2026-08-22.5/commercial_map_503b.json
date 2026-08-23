@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "dataset": "pqi_phase2_503_commercial_map",
+    "version": "2026-08-22.5-phase2-503",
+    "as_of": "2026-08-22",
+    "scraped_at": "2026-08-22T19:30:00-07:00",
+    "n_target": 12,
+    "n_collected": 12,
+    "n_503a": 6,
+    "n_503b": 6,
+    "hard_walls": [
+      "entity_type 503A|503B only",
+      "pharmacy_lists_peptide != verified",
+      "informational only; no invented prices/COAs/registration",
+      "Phase 3 OFF; no RUO re-scrape; no Sep crawl; no mass lot scrape"
+    ],
+    "stop_rule": "Reached N=12 with public sell-direct/price signals on all included rows; stop rule (5 consecutive no-signal) not triggered.",
+    "fda_list_status": "needs_fda_repull \u2014 registered outsourcing facilities page returned HTTP 401 from research env",
+    "discovery_hints": [
+      "https://batchguild.com/pharmacies/ (hint only; types re-verified on facility sites)",
+      "/workspace/pqi-briefs/machine-readable/enforcement_watch.json (no usable 503A/503B name seeds; all RUO/telehealth/other)"
+    ],
+    "notes": [
+      "Informational only. Not legal or medical advice.",
+      "Prefer fewer solid sourced rows over inventing \u2014 N=12 achieved with sourced facility pages.",
+      "Dual-operator brands may appear once per mapped facility type (Anazao 503A+503B; Belmar 503A+503B; Olympia 503A+503B)."
+    ],
+    "entity_type_filter": "503B"
+  },
+  "rows": [
+    {
+      "id": "503b-empower-pharmacy-tx",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503B",
+      "legal_name": "Empower Pharmacy",
+      "trade_name": "Empower Pharmacy",
+      "primary_url": "https://empowerpharmacy.com/",
+      "states": [
+        "TX"
+      ],
+      "fda_registration_posture": "self_claimed_FDA_registered_503B_outsourcing_facility_and_503A_pharmacy; FDA HTML list blocked in research env \u2014 needs_fda_repull",
+      "fda_source_url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://www.empowerpharmacy.com/compound-medication/peptides/",
+      "price_posture": "quote_only",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "tirzepatide",
+        "semaglutide",
+        "ghk-cu",
+        "sermorelin",
+        "gonadorelin",
+        "nad+"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "Homepage: batches tested/visually inspected; Quality Unit approval with Certificate of Analysis before release (facility claim; no public lot lookup observed).",
+      "confidence": "high",
+      "notes": "Self-describes as premier 503A + 503B. Row typed 503B for outsourcing commercial map; site also sells 503A patient-specific via Rx. Peptides page lists named SKUs; 'Request Pricing & Information' \u2014 no public $ amounts. Nationwide shipping claim incl. PR. Listing\u2260verified. needs_fda_repull for official OF list.",
+      "data_quality": "facility_site_primary; FDA OF list HTTP 401 from research env"
+    },
+    {
+      "id": "503b-olympia-pharmaceuticals",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503B",
+      "legal_name": "Olympia Pharmaceuticals",
+      "trade_name": "Olympia Pharmaceuticals",
+      "primary_url": "https://olympiapharmacy.com/",
+      "states": [
+        "FL"
+      ],
+      "fda_registration_posture": "self_claimed_FDA_registered_503B_outsourcing_facility; needs_fda_repull",
+      "fda_source_url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://olympiapharmacy.com/",
+      "price_posture": "not_public",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "nad+"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "Marketing table cites sterility/endotoxin/potency/pH testing for 503B; no public lot COA portal observed.",
+      "confidence": "high",
+      "notes": "Homepage: '503B FDA-registered outsourcing facility' for office use nationwide; affiliated 503A is Olympia Pharmacy. Medication directory includes Peptides category and NAD+. Provider/pharmacy registration path. No public SKU prices. Listing\u2260verified. needs_fda_repull.",
+      "data_quality": "facility_site_primary; FDA OF list blocked"
+    },
+    {
+      "id": "503b-anazaohealth-las-vegas",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503B",
+      "legal_name": "AnazaoHealth Corporation (Las Vegas 503B outsourcing facility)",
+      "trade_name": "AnazaoHealth",
+      "primary_url": "https://anazaohealth.com/",
+      "states": [
+        "NV"
+      ],
+      "fda_registration_posture": "self_claimed_503B_FDA_registered_outsourcing_facility_las_vegas; needs_fda_repull",
+      "fda_source_url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://anazaohealth.com/iv-therapy",
+      "price_posture": "quote_only",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "nad+"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "No public COA portal on sampled pages.",
+      "confidence": "high",
+      "notes": "About: 30,000 sq ft 503B FDA-Registered Outsourcing Facility in Las Vegas. IV page lists '503B Office Use Preparations' including \u03b2-NAD+. Quote via CS. Wellness/weight/sexual health compounding stated at brand level. Listing\u2260verified. needs_fda_repull.",
+      "data_quality": "facility_site_primary; FDA OF list blocked"
+    },
+    {
+      "id": "503b-belmar-select-outsourcing",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503B",
+      "legal_name": "Belmar Select Outsourcing (Belmar Pharma Solutions)",
+      "trade_name": "Belmar Select Outsourcing",
+      "primary_url": "https://www.belmarpharmasolutions.com/discover/about-belmar/belmar-503b-outsourcing-facility/",
+      "states": [
+        "CO"
+      ],
+      "fda_registration_posture": "self_claimed_national_503B_outsourcing_facility_FDA_regulated; needs_fda_repull",
+      "fda_source_url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://www.belmarpharmasolutions.com/discover/about-belmar/belmar-503b-outsourcing-facility/",
+      "price_posture": "quote_only",
+      "example_public_prices": [],
+      "peptides_listed": [],
+      "pharmacy_lists_peptide": false,
+      "coa_hygiene_note": "Claims 100% visual inspection, e-beam terminal sterilization, independent third-party testing for identity/strength/quality/purity on pellets and injectables.",
+      "confidence": "high",
+      "notes": "Explicit 503B page: two CO locations (Golden, Lakewood); office-use hormone pellets and testosterone cypionate blends \u2014 no named peptides on sampled 503B page. Account required for 503B office-use; catalog/pricing via contact. Included for 503B commercial posture map even without peptide listing. needs_fda_repull.",
+      "data_quality": "facility_site_primary; FDA OF list blocked"
+    },
+    {
+      "id": "503b-wells-pharmacy-network",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503B",
+      "legal_name": "Wells Pharmacy Network",
+      "trade_name": "Wells Pharmacy Network",
+      "primary_url": "https://wellsrx.com/",
+      "states": [
+        "FL",
+        "TN"
+      ],
+      "fda_registration_posture": "self_claimed_FDA_registered_503B_outsourcing_facility_plus_503A_pharmacy; needs_fda_repull",
+      "fda_source_url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://wellsrx.com/about-wells-compounding-pharmacy/",
+      "price_posture": "not_public",
+      "example_public_prices": [],
+      "peptides_listed": [
+        "sermorelin"
+      ],
+      "pharmacy_lists_peptide": true,
+      "coa_hygiene_note": "About: in-house sterility/endotoxin testing; sterility report available upon request for sterile orders (observe only).",
+      "confidence": "high",
+      "notes": "About/home: 20,500 SF 503A (Ocala FL) + 20,000 SF FDA Registered 503B (TN conversion per history). Row typed 503B for OF commercial map; BHRT pellets marketed as made in FDA Registered 503B. Public product tiles include Sermorelin forms; no $ prices. Provider Rx submit path. Listing\u2260verified. needs_fda_repull.",
+      "data_quality": "facility_site_primary; FDA OF list blocked"
+    },
+    {
+      "id": "503b-farmakeio-outsourcing-tx",
+      "scraped_at": "2026-08-22T19:30:00-07:00",
+      "entity_type": "503B",
+      "legal_name": "Farmakeio Outsourcing LLC",
+      "trade_name": "FarmaKeio / FarmaKeio Pharmacy Network",
+      "primary_url": "https://farmakeio.com/",
+      "states": [
+        "TX"
+      ],
+      "fda_registration_posture": "self_claimed_503B_pharmaceutical_outsourcing_facility; needs_fda_repull",
+      "fda_source_url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+      "sell_direct": "provider_only",
+      "sell_direct_evidence_url": "https://farmakeio.com/",
+      "price_posture": "quote_only",
+      "example_public_prices": [],
+      "peptides_listed": [],
+      "pharmacy_lists_peptide": false,
+      "coa_hygiene_note": "No public COA/lot language on homepage sample.",
+      "confidence": "medium",
+      "notes": "Homepage: Bulk Pellet Orders via 503B outsourcing facility; separate Custom Compounding / patient-specific RX path. Contact form interest options include 503B Outsourcing. No peptide names on homepage sample \u2014 discovery hint from BatchGuild (Southlake TX). Sell-direct/price signal = provider quote/contact. needs_fda_repull.",
+      "data_quality": "facility_site_primary; limited peptide signal on sampled pages"
+    }
+  ]
+}
