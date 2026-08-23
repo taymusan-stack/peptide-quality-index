@@ -6,7 +6,8 @@ This repo is the index data, schema, taxonomy, and verification store. It is not
 
 - Schema v1 locks: [`docs/schema.md`](docs/schema.md)
 - Marketing data contract: [`docs/for-marketing.md`](docs/for-marketing.md)
-- RUO product/lot COA pilot: [`data/seed/v2026-08-22.2/`](data/seed/v2026-08-22.2/) (186 rows, 63 portal-verified)
+- RUO A-tier product/lot COA pack: [`data/seed/v2026-08-22.3/`](data/seed/v2026-08-22.3/) (293 rows, 13 portal-verified)
+- RUO S-tier product/lot COA pilot: [`data/seed/v2026-08-22.2/`](data/seed/v2026-08-22.2/) (186 rows, 63 portal-verified)
 - Enforcement, lab catalog, shortage context: [`data/seed/v2026-08-22.1/`](data/seed/v2026-08-22.1/)
 - Vercel draft, reference/example only: https://peptide-quality-index.vercel.app/rankings
 
