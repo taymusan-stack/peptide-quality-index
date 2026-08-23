@@ -4,7 +4,7 @@ This repo is data, schema, taxonomy, and verification. Marketing owns the public
 
 The public site is an informational peptide directory. No dosing. No medical claims. No copy that tells people to buy peptides for human use.
 
-Engineering locks: [`docs/schema.md`](schema.md). Current seed: [`data/seed/v2026-08-22.1/`](../data/seed/v2026-08-22.1/).
+Engineering locks: [`docs/schema.md`](schema.md). Public methodology skeleton: [`docs/methodology-first-ship.md`](methodology-first-ship.md). Current seed: [`data/seed/v2026-08-22.1/`](../data/seed/v2026-08-22.1/).
 
 ## Who owns what
 
