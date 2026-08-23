@@ -7,3 +7,5 @@ verification_status_enum unchanged.
 ## Files
 - lab_method_catalog.json / .csv
 - lab_catalog_coverage.md
+
+`lab_method_catalog.json` is pending a follow-up commit (CSV is the canonical flat table for now).
