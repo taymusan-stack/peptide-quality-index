@@ -26,10 +26,18 @@
     ],
     "schema_notes": {
       "verified": "derived; true only if verification_status==verified_on_lab_portal",
+      "verification_status_enum": "verified_on_lab_portal | vendor_pdf | client_pdf_only | unverified. vendor_pdf is first-class; do not collapse to client_pdf_only.",
+      "null_rule": "null purity / null analyte != pass. Informational only.",
       "pharmacy_lists_peptide": "null OK for RUO",
       "confidence": "stripped from product rows; join enforcement_watch v2026-08-22.1",
       "portal_recheck": "v2026-08-22.2-portal; 63 verified_on_lab_portal; PNG-only reports so purity left null"
     },
+    "verification_status_enum": [
+      "verified_on_lab_portal",
+      "vendor_pdf",
+      "client_pdf_only",
+      "unverified"
+    ],
     "row_counts": {
       "total": 186,
       "by_vendor": {

@@ -7,7 +7,10 @@
       "Informational only. Never invent COA results.",
       "Score only analytes present on a report; null != pass.",
       "commissioning_party is first-class for trust.",
-      "verified (product/lot) uses lab-portal ladder; separate from pharmacy_lists_peptide."
+      "verification_status_enum: verified_on_lab_portal | vendor_pdf | client_pdf_only | unverified. vendor_pdf is first-class; do not collapse to client_pdf_only.",
+      "derived verified / verified badge is true ONLY when verification_status == verified_on_lab_portal.",
+      "null purity / null analyte != pass. Informational only.",
+      "verified (product/lot) is separate from pharmacy_lists_peptide."
     ],
     "default_lab_ids": [
       "janoshik",
@@ -16,6 +19,7 @@
     ],
     "verification_status_enum": [
       "verified_on_lab_portal",
+      "vendor_pdf",
       "client_pdf_only",
       "unverified"
     ],

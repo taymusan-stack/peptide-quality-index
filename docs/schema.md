@@ -28,17 +28,27 @@ One index row is:
 
 ## `verified` is not a pharmacy listing
 
-`verified` means lot/batch ID plus a lab match on this ladder, first hit wins:
+`verification_status` is how the report was checked. Locked enum:
 
-1. lab-portal key
-2. lab PDF
-3. vendor PDF
+`verified_on_lab_portal` | `vendor_pdf` | `client_pdf_only` | `unverified`
+
+`vendor_pdf` is first-class. Do not collapse it to `client_pdf_only`. Live S-tier/A-tier seed uses `vendor_pdf` often (120 of 186 rows in `v2026-08-22.2`).
+
+Match order when classifying a report, first hit wins:
+
+1. lab-portal key → `verified_on_lab_portal`
+2. lab PDF → `client_pdf_only`
+3. vendor PDF → `vendor_pdf`
+
+No match is `unverified`.
+
+Derived `verified` and the verified badge are true only when `verification_status == verified_on_lab_portal`. A vendor PDF or client PDF is not the badge. `null` purity or a `null` analyte is not a pass.
 
 Never use BatchGuild's pharmacy-listing sense of "verified." A pharmacy page that names a peptide is not a verified lot.
 
 `pharmacy_lists_peptide` is the field for pharmacy-site listing only. Keep it off the `verified` path.
 
-Lab catalog `verification_status` is a different enum (`verified_on_lab_portal` | `client_pdf_only` | `unverified`). It describes how the report was checked, not whether a pharmacy lists the SKU.
+Informational only. Do not invent COA numbers.
 
 ## Enforcement rows
 

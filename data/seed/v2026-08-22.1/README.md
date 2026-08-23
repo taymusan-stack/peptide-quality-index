@@ -10,11 +10,12 @@ Informational directory drafts for peptide-quality-index ingest. Not medical/leg
 - `shortage_copy_eligibility_context.json` — tirzepatide + semaglutide context objects (bonus for schema)
 
 ## Schema locks (from PQI Chief)
-1. `verified` = lot/batch ID + lab match on ladder (lab-portal key > lab PDF > vendor PDF). Never pharmacy-listing sense.
-2. Separate `pharmacy_lists_peptide` for pharmacy-site listing only.
-3. Enforcement rows require `confidence`: full-text | excerpt-only | title-only.
-4. Score only analytes present; null != pass; `commissioning_party` first-class.
-5. `shortage_copy_eligibility_context` is regulatory context only.
+1. `verification_status` enum: `verified_on_lab_portal` | `vendor_pdf` | `client_pdf_only` | `unverified`. `vendor_pdf` is first-class. Do not collapse it to `client_pdf_only`.
+2. Derived `verified` / verified badge is true only when `verification_status == verified_on_lab_portal`. Never pharmacy-listing sense.
+3. Separate `pharmacy_lists_peptide` for pharmacy-site listing only.
+4. Enforcement rows require `confidence`: full-text | excerpt-only | title-only.
+5. Score only analytes present; null purity / null analyte != pass; `commissioning_party` first-class. Informational only.
+6. `shortage_copy_eligibility_context` is regulatory context only.
 
 ## Held
 - No Sep 2025 50+ full crawl yet

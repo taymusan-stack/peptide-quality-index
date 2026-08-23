@@ -38,15 +38,19 @@ Vendor tiers come later. They are derived. Do not invent a vendor-level score fr
 
 ## Verified
 
-`verified` means lot/batch ID plus a lab match on this ladder. First hit wins:
+`verification_status` is locked:
 
-1. lab-portal key
-2. lab PDF
-3. vendor PDF
+`verified_on_lab_portal` | `vendor_pdf` | `client_pdf_only` | `unverified`
+
+`vendor_pdf` is first-class. Do not collapse it to `client_pdf_only`. Live seed uses it often.
+
+Derived `verified` and the verified badge are true only when `verification_status == verified_on_lab_portal`. A vendor PDF or client PDF is not the badge. `null` purity or a `null` analyte is not a pass.
 
 This is not BatchGuild pharmacy-listing "Verified." A pharmacy page that names a peptide is not a verified lot.
 
 `pharmacy_lists_peptide` is the field for pharmacy-site listing. Keep it off the `verified` path.
+
+Informational only. Do not invent COA numbers.
 
 ## Enforcement
 
@@ -81,7 +85,8 @@ Do:
 
 - Pin a seed version, or document how you take latest
 - Keep scorecards split by entity type
-- Show `verified` only when lot/batch ID plus a lab match exists
+- Show the verified badge only when `verification_status == verified_on_lab_portal`
+- Keep `vendor_pdf` as its own status. Do not collapse it to `client_pdf_only`
 - Show `pharmacy_lists_peptide` as a listing fact
 - Show enforcement with `confidence` and seed `allegation_type` enums
 - Show lab results only for analytes on the report
@@ -92,8 +97,9 @@ Don't:
 
 - Treat the Vercel draft as the product UI
 - Blend RUO, 503A, 503B, telehealth, or other into one leaderboard
-- Call a pharmacy listing "verified"
-- Invent COA numbers or treat a missing analyte as a pass
+- Call a pharmacy listing, vendor PDF, or client PDF "verified"
+- Collapse `vendor_pdf` into `client_pdf_only`
+- Invent COA numbers or treat null purity / a missing analyte as a pass
 - Invent allegation flags from titles
 - Write dosing, medical claims, or buy-for-human-use copy
 - Treat shortage context as "safe to compound"
