@@ -1,20 +1,22 @@
-# Phase 2 503A/503B commercial map v2026-08-22.5
+# data/seed/v2026-08-22.5 — Phase 2 commercial map (503A / 503B)
 
-Informational only. Commercial map of 503A and 503B entities (N=12, 6+6). Sell-direct / price posture. Not COA row data. Not the first-ship RUO pin.
+**Informational only.** Listing ≠ verified. Not a first-ship RUO pin.
 
-`entity_type` 503A and 503B stay separate. Never blend with RUO or telehealth.
+## Scope
+- Phase 2 503A/503B commercial map seed for Peptide Quality Index.
+- **N=12** total: **6** 503A + **6** 503B.
+- Sell-direct / price posture captured where public; no invented prices, COAs, or FDA registration.
 
-`pharmacy_lists_peptide` is not `verified`.
+## Contents
+| File | Role |
+|------|------|
+| `phase2_field_notes.md` | Method, counts, evidence URLs, gaps |
+| `copy_glossary_phase2_addendum.md` | Board copy walls (503A/503B/RUO/telehealth), listing≠verified |
+| `commercial_map_503a.csv` / `.json` | 503A rows (N=6) |
+| `commercial_map_503b.csv` / `.json` | 503B rows (N=6) |
+| `commercial_map_503_all.json` | Combined map (N=12) |
 
-First-ship RUO pin remains `.1` + `.2`. This pack is seed for Coming → later boards.
-
-Do not invent FDA list contents. `needs_repull` notes stay as Research wrote.
-
-## Files
-- `phase2_field_notes.md` — Research field notes
-- `copy_glossary_phase2_addendum.md` — Copy glossary addendum
-- `commercial_map_503a.json` + `.csv`
-- `commercial_map_503b.json` + `.csv`
-- `commercial_map_503_all.json` — optional rollup
-
-No invented rows, prices, or COAs. Pack bodies wait on frozen SoT FILE replies from `v2026-08-22.5-phase2-503-frozen/`. Prior non-frozen FILE bodies discarded.
+## Hard walls
+- Do not blend with Phase 1 RUO scorecards.
+- Do not treat pharmacy peptide **listing** as **verified** quality.
+- FDA outsourcing list was blocked this run (`needs_fda_repull` on 503B self-claims).
