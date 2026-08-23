@@ -11,6 +11,7 @@ This repo is the index data, schema, taxonomy, and verification store. It is not
 - RUO product/lot COA pilot: [`data/seed/v2026-08-22.2/`](data/seed/v2026-08-22.2/) (186 rows, 63 portal-verified)
 - Enforcement, lab catalog, shortage context: [`data/seed/v2026-08-22.1/`](data/seed/v2026-08-22.1/)
 - Phase 1 RUO test-depth / glossary pack: [`data/seed/v2026-08-22.4/`](data/seed/v2026-08-22.4/) (field notes, Copy glossary, summary, lab catalog CSV; informational, not COA rows)
+- Phase 2 503A/503B commercial map: [`data/seed/v2026-08-22.5/`](data/seed/v2026-08-22.5/) (informational; Coming→later boards; not the first-ship RUO pin)
 - Vercel draft, reference/example only: https://peptide-quality-index.vercel.app/rankings
 
 Marketing owns the public UI rebuild. The Vercel draft is not the product.
