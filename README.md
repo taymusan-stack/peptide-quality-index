@@ -14,6 +14,8 @@ This repo is the index data, schema, taxonomy, and verification store. It is not
 - Phase 2 503A/503B commercial map: [`data/seed/v2026-08-22.5/`](data/seed/v2026-08-22.5/) (informational; Coming→later boards; not the first-ship RUO pin)
 - Vercel draft, reference/example only: https://peptide-quality-index.vercel.app/rankings
 
+Draft women-first face (not live until C Wall says ship): [`web/`](web/). It sits on the live original eight-column ranking. It is not a cart and not a 503/pharmacy list mixed into that table.
+
 Marketing owns the public UI rebuild. The Vercel draft is not the product.
 
 No dosing. No medical claims. Not a pharmacy and not affiliated with any vendor.
