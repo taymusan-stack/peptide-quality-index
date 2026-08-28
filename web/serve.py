@@ -12,13 +12,13 @@ class FaceHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
-    def do_GET(self):
-        path = self.path.split("?", 1)[0]
-        if path.startswith("/vendor/") and not path.endswith(".html"):
-            slug = path[len("/vendor/") :].strip("/")
+    def translate_path(self, path):
+        clean = path.split("?", 1)[0]
+        if clean.startswith("/vendor/") and not clean.endswith(".html"):
+            slug = clean[len("/vendor/") :].strip("/")
             if slug and "/" not in slug:
-                self.path = "/vendor.html"
-        return super().do_GET()
+                path = "/vendor.html"
+        return super().translate_path(path)
 
 
 def main():
