@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Rankings — Peptide Quality Index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/pqi.css">
+</head>
+<body class="paper-grain" data-page="rankings">
+  <div id="site-header"></div>
+  <main>
+    <section class="page-intro">
+      <div class="wrap">
+        <p class="caption">§ Rankings · Live original table</p>
+        <h1>See which research peptide companies have a report you can check.</h1>
+        <p>Glow, NAD, glutathione, and the short list — ranked by how checkable the lab proof is. Information only. We don’t sell peptides.</p>
+        <form class="search-block" id="company-search" role="search">
+          <label class="search-label" for="company-query">How does your peptide company rank?</label>
+          <div class="search-row">
+            <input id="company-query" name="q" type="search" autocomplete="off" placeholder="">
+            <button type="submit">Get report</button>
+          </div>
+          <p class="search-help">If we have them, you get the row. If we don’t, we’ll send the report.</p>
+          <div id="search-result" class="search-result" hidden></div>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <div id="ranked-table"></div>
+        <p class="footnote">
+          Eight columns: #, Vendor, Tier S–D, Score 5–1, Lab, Methods, Trustpilot, COA status.
+          Vendor name or row opens that vendor. Live original Top 10 stays Panda through PureRawz.
+        </p>
+        <div id="tease-strip" class="tease-strip"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
