@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/vendor/:slug", "destination": "/web/vendor.html" },
+    { "source": "/css/:path*", "destination": "/web/css/:path*" },
+    { "source": "/js/:path*", "destination": "/web/js/:path*" },
+    { "source": "/data/:path*", "destination": "/web/data/:path*" },
+    { "source": "/", "destination": "/web/index.html" },
+    { "source": "/:file", "destination": "/web/:file" }
+  ]
+}

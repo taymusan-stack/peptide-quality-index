@@ -1,0 +1,2190 @@
+{
+  "meta": {
+    "source": "live_original_vercel_rankings",
+    "source_url": "https://peptide-quality-index.vercel.app/rankings",
+    "captured_from_deployment": "dpl_mTSGJjiSkAD4wL3Jf5wdHxC1Qu8U",
+    "live_page_updated": "2026-04-25",
+    "sitemap_lastmod": "2026-05-13",
+    "note": "Frozen live original 8-column ranking. Research/Tech has not refreshed ranks. Not a rebuild. Do not treat this row count as 89 US research-use.",
+    "row_count": 66,
+    "entity_lane": "live_original_blended_table_kept_as_is_until_refresh",
+    "informational_only": true
+  },
+  "rows": [
+    {
+      "rank": 1,
+      "slug": "panda-peptides",
+      "name": "Panda Peptides",
+      "domain": "pandapeptides.com",
+      "location": "California (Fair Oaks)",
+      "tier": "S",
+      "score": 5,
+      "lab": "Janoshik Analytical",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "4"
+      },
+      "coa_status": "Portal verified",
+      "vendor_url": "https://pandapeptides.com"
+    },
+    {
+      "rank": 2,
+      "slug": "bioinfinity-lab",
+      "name": "BioInfinity Lab",
+      "domain": "bioinfinitylab.com",
+      "location": "New Jersey",
+      "tier": "S",
+      "score": 5,
+      "lab": "Verum Analytics (Basel CH)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.6",
+        "reviews": "18"
+      },
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://bioinfinitylab.com"
+    },
+    {
+      "rank": 3,
+      "slug": "evolabs-research",
+      "name": "Evolabs Research",
+      "domain": "evolabsresearch.co",
+      "location": "Florida (Tampa)",
+      "tier": "S",
+      "score": 5,
+      "lab": "Janoshik Analytical, Kovera Labs",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "11"
+      },
+      "coa_status": "Portal verified",
+      "vendor_url": "https://evolabsresearch.co"
+    },
+    {
+      "rank": 4,
+      "slug": "prime-peptides",
+      "name": "Prime Peptides",
+      "domain": "primepeptides.co",
+      "location": "California",
+      "tier": "S",
+      "score": 5,
+      "lab": "Janoshik Analytical, MZ Biolabs",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "51"
+      },
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://primepeptides.co"
+    },
+    {
+      "rank": 5,
+      "slug": "sports-technology-labs",
+      "name": "Sports Technology Labs",
+      "domain": "sportstechnologylabs.com",
+      "location": "Connecticut (Shelton)",
+      "tier": "A",
+      "score": 4,
+      "lab": "MZ Biolabs",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "253"
+      },
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://sportstechnologylabs.com"
+    },
+    {
+      "rank": 6,
+      "slug": "onyx-biolabs",
+      "name": "Onyx Biolabs",
+      "domain": "onyxbiolabs.com",
+      "location": null,
+      "tier": "A",
+      "score": 4,
+      "lab": "Kovera Labs (KVR)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "20"
+      },
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://onyxbiolabs.com"
+    },
+    {
+      "rank": 7,
+      "slug": "qsc-peptides",
+      "name": "QSC Peptides",
+      "domain": "qsc-usa.com",
+      "location": "Multi-warehouse (USA + 7 international)",
+      "tier": "A",
+      "score": 4,
+      "lab": "Janoshik Analytical",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://qsc-usa.com"
+    },
+    {
+      "rank": 8,
+      "slug": "edge-peptides",
+      "name": "Edge Peptides",
+      "domain": "edgepeptides.com",
+      "location": null,
+      "tier": "A",
+      "score": 4,
+      "lab": "Janoshik Analytical, Chromate",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://edgepeptides.com"
+    },
+    {
+      "rank": 9,
+      "slug": "pure-peptide-labs",
+      "name": "Pure Peptide Labs",
+      "domain": "purepeptidelabs.com",
+      "location": null,
+      "tier": "A",
+      "score": 4,
+      "lab": "Unknown (US-based)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "1,500"
+      },
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://purepeptidelabs.com"
+    },
+    {
+      "rank": 10,
+      "slug": "purerawz",
+      "name": "PureRawz",
+      "domain": "purerawz.co",
+      "location": "Nevada (Las Vegas)",
+      "tier": "A",
+      "score": 4,
+      "lab": "Janoshik, MZ Biolabs, Colmaric Analytical",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.1",
+        "reviews": null
+      },
+      "coa_status": "Partial",
+      "vendor_url": "https://purerawz.co"
+    },
+    {
+      "rank": 11,
+      "slug": "chemyo",
+      "name": "Chemyo",
+      "domain": "chemyo.com",
+      "location": "Delaware (Wilmington)",
+      "tier": "A",
+      "score": 4,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.4",
+        "reviews": null
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://chemyo.com"
+    },
+    {
+      "rank": 12,
+      "slug": "biolongevity-labs",
+      "name": "BioLongevity Labs",
+      "domain": "biolongevitylabs.com",
+      "location": null,
+      "tier": "A",
+      "score": 4,
+      "lab": "SafeCert Labs (named) + 2 unnamed",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.5",
+        "reviews": null
+      },
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://biolongevitylabs.com"
+    },
+    {
+      "rank": 13,
+      "slug": "verified-peptides",
+      "name": "Verified Peptides",
+      "domain": "verifiedpeptides.com",
+      "location": null,
+      "tier": "A",
+      "score": 4,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": null
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://verifiedpeptides.com"
+    },
+    {
+      "rank": 14,
+      "slug": "ascension-peptides",
+      "name": "Ascension Peptides",
+      "domain": "ascensionpeptides.com",
+      "location": "Colorado (likely)",
+      "tier": "A",
+      "score": 4,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "96"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://ascensionpeptides.com"
+    },
+    {
+      "rank": 15,
+      "slug": "prime-lab-peptides",
+      "name": "Prime Lab Peptides",
+      "domain": "primelabpeptides.com",
+      "location": "Florida (Miami) + UAE",
+      "tier": "A",
+      "score": 4,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "846"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://primelabpeptides.com"
+    },
+    {
+      "rank": 16,
+      "slug": "labsourced-peptides",
+      "name": "LabSourced Peptides",
+      "domain": "labsourced.com",
+      "location": "Wyoming (Sheridan)",
+      "tier": "A",
+      "score": 4,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.7",
+        "reviews": "1"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://labsourced.com"
+    },
+    {
+      "rank": 17,
+      "slug": "one-day-compounds",
+      "name": "One Day Compounds",
+      "domain": "onedaycompounds.com",
+      "location": "Utah",
+      "tier": "A",
+      "score": 4,
+      "lab": "Unknown (US ISO/IEC 17025 accredited)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab confirmed",
+      "vendor_url": "https://onedaycompounds.com"
+    },
+    {
+      "rank": 18,
+      "slug": "peak-lab-peptides",
+      "name": "Peak Lab Peptides",
+      "domain": "peaklabpeptides.com",
+      "location": "South Dakota (Watertown)",
+      "tier": "B",
+      "score": 3,
+      "lab": "Unknown (US-based)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.7",
+        "reviews": "37"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peaklabpeptides.com"
+    },
+    {
+      "rank": 19,
+      "slug": "modern-aminos",
+      "name": "Modern Aminos",
+      "domain": "modernaminos.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "1,563"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://modernaminos.com"
+    },
+    {
+      "rank": 20,
+      "slug": "penguin-peptides",
+      "name": "Penguin Peptides",
+      "domain": "penguinpeptides.com",
+      "location": "Wyoming (Sheridan)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "1,275"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://penguinpeptides.com"
+    },
+    {
+      "rank": 21,
+      "slug": "soma-peptides",
+      "name": "Soma Peptides",
+      "domain": "yoursoma.com",
+      "location": "California (Murrieta)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "134"
+      },
+      "coa_status": "Self-issued",
+      "vendor_url": "https://yoursoma.com"
+    },
+    {
+      "rank": 22,
+      "slug": "instant-peptides",
+      "name": "Instant Peptides",
+      "domain": "instantpeptides.com",
+      "location": "Arizona",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "307"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://instantpeptides.com"
+    },
+    {
+      "rank": 23,
+      "slug": "iron-peptides",
+      "name": "Iron Peptides",
+      "domain": "ironpeptides.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": "Unknown (FDA-registered cGMP)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "53"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://ironpeptides.com"
+    },
+    {
+      "rank": 24,
+      "slug": "felix-chemical-supply",
+      "name": "Felix Chemical Supply",
+      "domain": "felixchem.is",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": "Unknown (US-based)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://felixchem.is"
+    },
+    {
+      "rank": 25,
+      "slug": "protide-health",
+      "name": "Protide Health",
+      "domain": "protidehealth.com",
+      "location": "Nevada (Las Vegas)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.8",
+        "reviews": null
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://protidehealth.com"
+    },
+    {
+      "rank": 26,
+      "slug": "peptide-hubs",
+      "name": "Peptide Hubs",
+      "domain": "peptidehubs.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peptidehubs.com"
+    },
+    {
+      "rank": 27,
+      "slug": "cellora-labs",
+      "name": "Cellora Labs",
+      "domain": "celloralabs.is",
+      "location": "South Dakota (likely)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://celloralabs.is"
+    },
+    {
+      "rank": 28,
+      "slug": "elite-miami-peptides",
+      "name": "Elite Miami Peptides",
+      "domain": "elitemiamipeptides.com",
+      "location": "Florida (Miami)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "34"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://elitemiamipeptides.com"
+    },
+    {
+      "rank": 29,
+      "slug": "direct-peptides",
+      "name": "Direct Peptides",
+      "domain": "directpeptides.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": null
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://directpeptides.com"
+    },
+    {
+      "rank": 30,
+      "slug": "pekcura-labs",
+      "name": "PekCura Labs",
+      "domain": "pekcuralabs.com",
+      "location": "Florida (Pensacola)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "27"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://pekcuralabs.com"
+    },
+    {
+      "rank": 31,
+      "slug": "limitless-life-nootropics",
+      "name": "Limitless Life Nootropics",
+      "domain": "limitlesslifenootropics.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.5",
+        "reviews": "152"
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://limitlesslifenootropics.com"
+    },
+    {
+      "rank": 32,
+      "slug": "the-peptide-source-llc",
+      "name": "The Peptide Source LLC",
+      "domain": "thepeptidesourcellc.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "125"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://thepeptidesourcellc.com"
+    },
+    {
+      "rank": 33,
+      "slug": "apollo-peptide-sciences",
+      "name": "Apollo Peptide Sciences",
+      "domain": "apollopeptidesciences.com",
+      "location": "California (Oxnard)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://apollopeptidesciences.com"
+    },
+    {
+      "rank": 34,
+      "slug": "tailor-made-compounding",
+      "name": "Tailor Made Compounding",
+      "domain": "tailormadecompounding.com",
+      "location": "Kentucky",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "2.0",
+        "reviews": null
+      },
+      "coa_status": "N/A (FDA-inspected pharmacy)",
+      "vendor_url": "https://tailormadecompounding.com"
+    },
+    {
+      "rank": 35,
+      "slug": "licensed-peptides",
+      "name": "Licensed Peptides",
+      "domain": "licensedpeptides.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": "Unknown (ISO/IEC 17025:2017 accredited)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "770"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://licensedpeptides.com"
+    },
+    {
+      "rank": 36,
+      "slug": "reta-one-labs",
+      "name": "Reta One Labs",
+      "domain": "retaonelabs.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "6.0",
+        "reviews": null
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://retaonelabs.com"
+    },
+    {
+      "rank": 37,
+      "slug": "peak-force-labs",
+      "name": "Peak Force Labs",
+      "domain": "peakforcelabs.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": "Unknown (accredited US labs)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": true
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "6"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peakforcelabs.com"
+    },
+    {
+      "rank": 38,
+      "slug": "apex-peptide-supply",
+      "name": "Apex Peptide Supply",
+      "domain": "apexpeptidesupply.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://apexpeptidesupply.com"
+    },
+    {
+      "rank": 39,
+      "slug": "mypurepeptide",
+      "name": "MyPurePeptide",
+      "domain": "mypurepeptide.com",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://mypurepeptide.com"
+    },
+    {
+      "rank": 40,
+      "slug": "peakform-peptides",
+      "name": "PeakForm Peptides",
+      "domain": "peakformpeptides.com",
+      "location": "Arizona (Scottsdale)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peakformpeptides.com"
+    },
+    {
+      "rank": 41,
+      "slug": "peptide-hub",
+      "name": "Peptide Hub",
+      "domain": "peptidehub.com",
+      "location": "Wyoming (Sheridan)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peptidehub.com"
+    },
+    {
+      "rank": 42,
+      "slug": "peptides-source-philadelphia",
+      "name": "Peptides Source (Philadelphia)",
+      "domain": "peptidessource.com",
+      "location": "Pennsylvania (Philadelphia)",
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": true
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "125"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peptidessource.com"
+    },
+    {
+      "rank": 43,
+      "slug": "trusted-peptides",
+      "name": "Trusted Peptides",
+      "domain": "trustedpeptides.store",
+      "location": null,
+      "tier": "B",
+      "score": 3,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.5",
+        "reviews": "5"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://trustedpeptides.store"
+    },
+    {
+      "rank": 44,
+      "slug": "biotech-peptides",
+      "name": "Biotech Peptides",
+      "domain": "biotechpeptides.com",
+      "location": null,
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "334"
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://biotechpeptides.com"
+    },
+    {
+      "rank": 45,
+      "slug": "treasure-coast-peptides",
+      "name": "Treasure Coast Peptides",
+      "domain": "treasurecoastpeptides.com",
+      "location": "Florida (Jensen Beach)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "76"
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://treasurecoastpeptides.com"
+    },
+    {
+      "rank": 46,
+      "slug": "spartan-peptides",
+      "name": "Spartan Peptides",
+      "domain": "spartanpeptides.com",
+      "location": null,
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.2",
+        "reviews": "1"
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://spartanpeptides.com"
+    },
+    {
+      "rank": 47,
+      "slug": "behemoth-labz",
+      "name": "Behemoth Labz",
+      "domain": "behemothlabz.com",
+      "location": "Wyoming",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.0",
+        "reviews": "199"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://behemothlabz.com"
+    },
+    {
+      "rank": 48,
+      "slug": "peptide-systems",
+      "name": "Peptide Systems",
+      "domain": "peptidesystems.com",
+      "location": "California (Folsom)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": null
+      },
+      "coa_status": null,
+      "vendor_url": "https://peptidesystems.com"
+    },
+    {
+      "rank": 49,
+      "slug": "nu-image-medical",
+      "name": "Nu Image Medical",
+      "domain": "nuimagemedical.com",
+      "location": "Florida (Tampa)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "979"
+      },
+      "coa_status": "N/A (compounded by licensed pharmacy)",
+      "vendor_url": "https://nuimagemedical.com"
+    },
+    {
+      "rank": 50,
+      "slug": "aapptec",
+      "name": "AAPPTEC",
+      "domain": "peptide.com",
+      "location": "Kentucky (Louisville)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "2.0",
+        "reviews": null
+      },
+      "coa_status": "N/A (custom-synthesis B2B)",
+      "vendor_url": "https://peptide.com"
+    },
+    {
+      "rank": 51,
+      "slug": "peptidic-research",
+      "name": "Peptidic Research",
+      "domain": "peptidicresearch.com",
+      "location": "Florida (Miami)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://peptidicresearch.com"
+    },
+    {
+      "rank": 52,
+      "slug": "ameano-peptides",
+      "name": "Ameano Peptides",
+      "domain": "ameanopeptides.com",
+      "location": "Arkansas (Little Rock)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.8",
+        "reviews": "415"
+      },
+      "coa_status": "Lab not named",
+      "vendor_url": "https://ameanopeptides.com"
+    },
+    {
+      "rank": 53,
+      "slug": "healthgevity",
+      "name": "Healthgevity",
+      "domain": "healthgev.com",
+      "location": null,
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": null,
+      "vendor_url": "https://healthgev.com"
+    },
+    {
+      "rank": 54,
+      "slug": "biopeptitech",
+      "name": "Biopeptitech",
+      "domain": "biopeptitech.com",
+      "location": "California (Huntington Beach)",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://biopeptitech.com"
+    },
+    {
+      "rank": 55,
+      "slug": "lvlup-health",
+      "name": "LVLUP Health",
+      "domain": "lvluphealth.com",
+      "location": "California",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://lvluphealth.com"
+    },
+    {
+      "rank": 56,
+      "slug": "pentech-peptide",
+      "name": "Pentech Peptide",
+      "domain": "pentechpeptide.com",
+      "location": null,
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://pentechpeptide.com"
+    },
+    {
+      "rank": 57,
+      "slug": "paragon-peptides",
+      "name": "Paragon Peptides",
+      "domain": "paragonpeptides.net",
+      "location": "Michigan (Lake Orion)",
+      "tier": "C",
+      "score": 2,
+      "lab": "Unknown (in-house only)",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Self-issued",
+      "vendor_url": "https://paragonpeptides.net"
+    },
+    {
+      "rank": 58,
+      "slug": "domestic-peptides",
+      "name": "Domestic Peptides",
+      "domain": "domesticpeptides.com",
+      "location": null,
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://domesticpeptides.com"
+    },
+    {
+      "rank": 59,
+      "slug": "loti-labs",
+      "name": "Loti Labs",
+      "domain": "lotilabs.com",
+      "location": "Florida",
+      "tier": "C",
+      "score": 2,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": true
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Lab not named",
+      "vendor_url": "https://lotilabs.com"
+    },
+    {
+      "rank": 60,
+      "slug": "core-peptides",
+      "name": "Core Peptides",
+      "domain": "corepeptides.com",
+      "location": "Florida (Orlando)",
+      "tier": "D",
+      "score": 1,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "5.0",
+        "reviews": "282"
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://corepeptides.com"
+    },
+    {
+      "rank": 61,
+      "slug": "geo-peptides",
+      "name": "Geo Peptides",
+      "domain": "geopeptides.com",
+      "location": "Florida",
+      "tier": "D",
+      "score": 1,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "3.0",
+        "reviews": null
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://geopeptides.com"
+    },
+    {
+      "rank": 62,
+      "slug": "bluesky-peptide",
+      "name": "BlueSky Peptide",
+      "domain": "blueskypeptide.com",
+      "location": null,
+      "tier": "D",
+      "score": 1,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": {
+        "rating": "4.0",
+        "reviews": "46"
+      },
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://blueskypeptide.com"
+    },
+    {
+      "rank": 63,
+      "slug": "propeptides",
+      "name": "ProPeptides",
+      "domain": "propeptides.com",
+      "location": "Arizona (Tempe)",
+      "tier": "D",
+      "score": 1,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Unverifiable",
+      "vendor_url": "https://propeptides.com"
+    },
+    {
+      "rank": 64,
+      "slug": "peptide-sciences",
+      "name": "Peptide Sciences",
+      "domain": "peptidesciences.com",
+      "location": null,
+      "tier": "D",
+      "score": 1,
+      "lab": "In-house COAs",
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": true
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": "Failed verification",
+      "vendor_url": "https://peptidesciences.com"
+    },
+    {
+      "rank": 65,
+      "slug": "science-bio",
+      "name": "Science.bio",
+      "domain": "science.bio",
+      "location": null,
+      "tier": "D",
+      "score": 1,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": null,
+      "vendor_url": "https://science.bio"
+    },
+    {
+      "rank": 66,
+      "slug": "paradigm-peptides",
+      "name": "Paradigm Peptides",
+      "domain": "paradigmpeptides.com",
+      "location": "Indiana (Michigan City)",
+      "tier": "D",
+      "score": 1,
+      "lab": null,
+      "methods": [
+        {
+          "code": "HPLC",
+          "stated": false
+        },
+        {
+          "code": "MS",
+          "stated": false
+        },
+        {
+          "code": "Ster",
+          "stated": false
+        },
+        {
+          "code": "Endo",
+          "stated": false
+        }
+      ],
+      "trustpilot": null,
+      "coa_status": null,
+      "vendor_url": "https://paradigmpeptides.com"
+    }
+  ]
+}

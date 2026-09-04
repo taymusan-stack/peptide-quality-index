@@ -1,0 +1,4242 @@
+{
+  "meta": {
+    "source": "data/seed/v2026-08-22.2/product_lot_coa_pilot.json",
+    "seed_pin": "v2026-08-22.2-portal",
+    "note": "Listing facts only. Price and $/mg shown only when those fields already exist in the pinned seed. Missing = not stated. No averages. No invented SKUs. Public copy says batch.",
+    "vendors_in_seed": [
+      "panda-peptides",
+      "bioinfinity-lab",
+      "evolabs-research",
+      "prime-peptides"
+    ],
+    "row_count": 186,
+    "priced_row_count": 143
+  },
+  "lead_teases": [
+    "GLOW",
+    "NAD+",
+    "Glutathione"
+  ],
+  "locked_10": [
+    "BPC-157",
+    "TB-500",
+    "Semaglutide",
+    "Tirzepatide",
+    "Retatrutide",
+    "GHK-Cu",
+    "NAD+",
+    "Tesamorelin",
+    "Ipamorelin",
+    "Semax"
+  ],
+  "stacks_named": [
+    "CJC / Ipamorelin",
+    "Tesamorelin / Ipamorelin",
+    "GLOW",
+    "KLOW"
+  ],
+  "rows": [
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "5-Amino-1MQ 40mg",
+      "peptide_identity": "5-Amino-1MQ",
+      "sku": "PP-001",
+      "size_label": "40mg",
+      "listed_price_usd": 44.99,
+      "price_stated": true,
+      "batch": "PP2603-001B",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.1248
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "AOD-9604",
+      "peptide_identity": "AOD-9604",
+      "sku": "PP-003",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2603-003A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "ARA-290 10mg",
+      "peptide_identity": "ARA-290",
+      "sku": "PP-042",
+      "size_label": "10mg",
+      "listed_price_usd": 44.99,
+      "price_stated": true,
+      "batch": "PP2603-042",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.499
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "BPC-157",
+      "peptide_identity": "BPC-157",
+      "sku": "PP-006",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-006B",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "BPC/TB Blend",
+      "peptide_identity": "BPC/TB Blend",
+      "sku": "PP-007",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-007A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Cagrilintide",
+      "peptide_identity": "Cagrilintide",
+      "sku": "PP-014",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2601",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "CJC-1295 (NO DAC) + Ipamorelin",
+      "peptide_identity": "CJC-1295",
+      "sku": "PP-008",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-008AA / PP2602-008AB",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Ipamorelin",
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [
+        "CJC / Ipamorelin"
+      ],
+      "vendor_published_constituents": "CJC-1295 (NO DAC) + Ipamorelin CJC-1295",
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "CJC-1295 (NO DAC) 5mg",
+      "peptide_identity": "CJC-1295",
+      "sku": "PP-043",
+      "size_label": "5mg",
+      "listed_price_usd": 30.79,
+      "price_stated": true,
+      "batch": "PP2602-043",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.158
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "CJC-1295 (WITH DAC) 5mg",
+      "peptide_identity": "CJC-1295",
+      "sku": "PP-009",
+      "size_label": "5mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "PP2602-009A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 7.998
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Double Receptor Agonist",
+      "peptide_identity": "Double Receptor Agonist",
+      "sku": "PP-DRA",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-017BB",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "DSIP",
+      "peptide_identity": "DSIP",
+      "sku": "PP-010",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2603-010B",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Epithalon 10mg",
+      "peptide_identity": "Epithalon",
+      "sku": "PP-011",
+      "size_label": "10mg",
+      "listed_price_usd": 32.89,
+      "price_stated": true,
+      "batch": "PP2601",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.289
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "GHK-Cu",
+      "peptide_identity": "GHK-Cu",
+      "sku": "PP-012",
+      "size_label": "50mg",
+      "listed_price_usd": 26.87,
+      "price_stated": true,
+      "batch": "PP2602-012AA",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.5374
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "GHK-Cu / TB-500 / BPC-157 Blend (GLOW) 70mg",
+      "peptide_identity": "GHK-Cu / TB-500 / BPC-157 Blend",
+      "sku": "PP-013",
+      "size_label": "70mg",
+      "listed_price_usd": 89.99,
+      "price_stated": true,
+      "batch": "PP2601",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "GLOW",
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [
+        "GLOW"
+      ],
+      "vendor_published_constituents": "GHK-Cu / TB-500 / BPC-157 Blend (GLOW) 70mg GHK-Cu / TB-500 / BPC-157 Blend",
+      "price_per_mg_usd": 1.2856
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "GLP-1S",
+      "peptide_identity": "GLP-1S",
+      "sku": "PP-016",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-016B",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "IGF-1 LR3 1mg",
+      "peptide_identity": "IGF-1 LR3",
+      "sku": "PP-023-A",
+      "size_label": "1mg",
+      "listed_price_usd": 44.99,
+      "price_stated": true,
+      "batch": "PP2604-023A",
+      "lab_name": "ILS Laboratories",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 44.99
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Ipamorelin",
+      "peptide_identity": "Ipamorelin",
+      "sku": "PP-024",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-024A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Ipamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Kisspeptin-10",
+      "peptide_identity": "Kisspeptin-10",
+      "sku": "PP-025",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-025B",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "KLOW 80mg",
+      "peptide_identity": "KLOW",
+      "sku": "PP-026",
+      "size_label": "80mg",
+      "listed_price_usd": 99.99,
+      "price_stated": true,
+      "batch": "PP2603-026",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "KLOW"
+      ],
+      "vendor_named_stacks": [
+        "KLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.2499
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "KPV 10mg",
+      "peptide_identity": "KPV",
+      "sku": "PP-027",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "PP2601",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Melanotan I (MT-1) 10mg",
+      "peptide_identity": "Melanotan I",
+      "sku": "PP-048",
+      "size_label": "10mg",
+      "listed_price_usd": 28.99,
+      "price_stated": true,
+      "batch": "PP2604-048",
+      "lab_name": "ILS Laboratories",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 2.899
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Melanotan II (MT-2) 10mg",
+      "peptide_identity": "Melanotan II",
+      "sku": "PP-030",
+      "size_label": "10mg",
+      "listed_price_usd": 28.04,
+      "price_stated": true,
+      "batch": "PP2602-007A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 2.804
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "MOTS-c",
+      "peptide_identity": "MOTS-c",
+      "sku": "PP-031",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-031A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "NAD+ 500mg",
+      "peptide_identity": "NAD+",
+      "sku": "PP-032",
+      "size_label": "500mg",
+      "listed_price_usd": 38.39,
+      "price_stated": true,
+      "batch": "PP2602-0322",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.0768
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Peptide-31",
+      "peptide_identity": "Peptide-31",
+      "sku": "PP-054",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2603-054B",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "PT-141 10mg",
+      "peptide_identity": "PT-141",
+      "sku": "PP-034",
+      "size_label": "10mg",
+      "listed_price_usd": 34.99,
+      "price_stated": true,
+      "batch": "PP2602-034",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.499
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Selank",
+      "peptide_identity": "Selank",
+      "sku": "PP-035",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-035A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Semax",
+      "peptide_identity": "Semax",
+      "sku": "PP-036",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-036A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semax"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Sermorelin 10mg",
+      "peptide_identity": "Sermorelin",
+      "sku": "PP-037",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "PP2602-0377",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "TB-500",
+      "peptide_identity": "TB-500",
+      "sku": "PP-038",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2601",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Tesamorelin 10mg",
+      "peptide_identity": "Tesamorelin",
+      "sku": "PP-039-B",
+      "size_label": "10mg",
+      "listed_price_usd": 54.99,
+      "price_stated": true,
+      "batch": "PP2604-039B",
+      "lab_name": "ILS Laboratories",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Tesamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.499
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Tesamorelin 10mg + Ipamorelin 3mg",
+      "peptide_identity": "Tesamorelin 10mg + Ipamorelin 3mg",
+      "sku": "PP-055",
+      "size_label": "10mg+3mg",
+      "listed_price_usd": 64.99,
+      "price_stated": true,
+      "batch": "PP2603-055",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Tesamorelin",
+        "Ipamorelin"
+      ],
+      "vendor_named_stacks": [
+        "Tesamorelin / Ipamorelin"
+      ],
+      "vendor_published_constituents": "Tesamorelin 10mg + Ipamorelin 3mg Tesamorelin 10mg + Ipamorelin 3mg",
+      "price_per_mg_usd": 6.499
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Thymosin Alpha-1",
+      "peptide_identity": "Thymosin Alpha-1",
+      "sku": "PP-041",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-041A",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "panda-peptides",
+      "vendor_name": "Panda Peptides",
+      "product_name": "Triple Receptor Agonist",
+      "peptide_identity": "Triple Receptor Agonist",
+      "sku": "PP-TRA",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "PP2602-018D",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "DSIP (5 mg)",
+      "peptide_identity": "DSIP",
+      "sku": "BIL-DSIP-01-2606",
+      "size_label": "5 mg",
+      "listed_price_usd": 70.0,
+      "price_stated": true,
+      "batch": "BIL-DSIP-01-2606",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 14.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "SS-31 (10 mg)",
+      "peptide_identity": "SS-31",
+      "sku": "BIL-SS31-01-2606",
+      "size_label": "10 mg",
+      "listed_price_usd": 60.0,
+      "price_stated": true,
+      "batch": "BIL-SS31-01-2606",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "IGF-1 LR3 (1 mg)",
+      "peptide_identity": "IGF-1 LR3",
+      "sku": "BIL-IGF-01-2606",
+      "size_label": "1 mg",
+      "listed_price_usd": 110.0,
+      "price_stated": true,
+      "batch": "BIL-IGF-01-2606",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 110.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "KLOW 80 (GHK-Cu / KPV / BPC-157 / TB-500) (80 mg)",
+      "peptide_identity": "KLOW 80",
+      "sku": "BIL-KL80-01-2605",
+      "size_label": "80 mg",
+      "listed_price_usd": 240.0,
+      "price_stated": true,
+      "batch": "BIL-KL80-01-2605",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "KLOW",
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [
+        "KLOW"
+      ],
+      "vendor_published_constituents": "KLOW 80 (GHK-Cu / KPV / BPC-157 / TB-500) (80 mg) KLOW 80",
+      "price_per_mg_usd": 3.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Epithalon (50 mg)",
+      "peptide_identity": "Epithalon",
+      "sku": "BIL-EPT50-01-2603",
+      "size_label": "50 mg",
+      "listed_price_usd": 200.0,
+      "price_stated": true,
+      "batch": "BIL-EPT50-01-2603",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Epithalon (10 mg)",
+      "peptide_identity": "Epithalon",
+      "sku": "BIL-EPT10-01-2603",
+      "size_label": "10 mg",
+      "listed_price_usd": 55.0,
+      "price_stated": true,
+      "batch": "BIL-EPT10-01-2603",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "5-Amino-1MQ (50 mg)",
+      "peptide_identity": "5-Amino-1MQ",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "50 mg",
+      "listed_price_usd": 145.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 2.9
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Tirzepatide (60 mg)",
+      "peptide_identity": "Tirzepatide",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "60 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Tirzepatide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Tirzepatide (30 mg)",
+      "peptide_identity": "Tirzepatide",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "30 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Tirzepatide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Thymosin Alpha-1 (10 mg)",
+      "peptide_identity": "Thymosin Alpha-1",
+      "sku": "BIL-TA1-01-2603",
+      "size_label": "10 mg",
+      "listed_price_usd": 130.0,
+      "price_stated": true,
+      "batch": "BIL-TA1-01-2603",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 13.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Tesamorelin (10 mg)",
+      "peptide_identity": "Tesamorelin",
+      "sku": "BIL-TESA-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-TESA-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Tesamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "TB-500 (10 mg)",
+      "peptide_identity": "TB-500",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 95.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "TB-500 (5 mg)",
+      "peptide_identity": "TB-500",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": 55.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 11.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Semax (10 mg)",
+      "peptide_identity": "Semax",
+      "sku": "BIL-SEMAX-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 60.0,
+      "price_stated": true,
+      "batch": "BIL-SEMAX-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semax"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Semaglutide (5 mg)",
+      "peptide_identity": "Semaglutide",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": 45.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Selank (10 mg)",
+      "peptide_identity": "Selank",
+      "sku": "BIL-SEL-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 70.0,
+      "price_stated": true,
+      "batch": "BIL-SEL-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 7.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Retatrutide (20 mg)",
+      "peptide_identity": "Retatrutide",
+      "sku": "BIL-RET-01-2602",
+      "size_label": "20 mg",
+      "listed_price_usd": 295.0,
+      "price_stated": true,
+      "batch": "BIL-RET-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 14.75
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Retatrutide (10 mg)",
+      "peptide_identity": "Retatrutide",
+      "sku": "BIL-RET-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 165.0,
+      "price_stated": true,
+      "batch": "BIL-RET-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 16.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Retatrutide (5 mg)",
+      "peptide_identity": "Retatrutide",
+      "sku": "BIL-RET-01-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": 85.0,
+      "price_stated": true,
+      "batch": "BIL-RET-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 17.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "PT-141 (10 mg)",
+      "peptide_identity": "PT-141",
+      "sku": "BIL-PT141-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-PT141-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "NAD+ (1000 mg)",
+      "peptide_identity": "NAD+",
+      "sku": "BIL-NAD-01-2602",
+      "size_label": "1000 mg",
+      "listed_price_usd": 110.0,
+      "price_stated": true,
+      "batch": "BIL-NAD-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.11
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "NAD+ (500 mg)",
+      "peptide_identity": "NAD+",
+      "sku": "BIL-NAD-02-2602",
+      "size_label": "500 mg",
+      "listed_price_usd": 110.0,
+      "price_stated": true,
+      "batch": "BIL-NAD-02-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.22
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "MOTS-c (10 mg)",
+      "peptide_identity": "MOTS-c",
+      "sku": "BIL-MOTS-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 70.0,
+      "price_stated": true,
+      "batch": "BIL-MOTS-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 7.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Melanotan II (10 mg)",
+      "peptide_identity": "Melanotan II",
+      "sku": "BIL-MT2-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-MT2-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Ipamorelin (10 mg)",
+      "peptide_identity": "Ipamorelin",
+      "sku": "BIL-IPA-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 45.0,
+      "price_stated": true,
+      "batch": "BIL-IPA-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Ipamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Ipamorelin (5 mg)",
+      "peptide_identity": "Ipamorelin",
+      "sku": "BIL-IPA-02-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": 45.0,
+      "price_stated": true,
+      "batch": "BIL-IPA-02-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Ipamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "hCG (5000 IU)",
+      "peptide_identity": "hCG",
+      "sku": "BIL-HCG-01-2602",
+      "size_label": "5000 IU",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-HCG-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "GHK-Cu (50 mg)",
+      "peptide_identity": "GHK-Cu",
+      "sku": "BIL-GHK-01-2602",
+      "size_label": "50 mg",
+      "listed_price_usd": 50.0,
+      "price_stated": true,
+      "batch": "BIL-GHK-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "CJC-1295 DAC (5 mg)",
+      "peptide_identity": "CJC-1295 DAC",
+      "sku": "BIL-CJC-01-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-CJC-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "CJC-1295 (no DAC) (5 mg)",
+      "peptide_identity": "CJC-1295",
+      "sku": "BIL-CJCND-01-2603",
+      "size_label": "5 mg",
+      "listed_price_usd": 45.0,
+      "price_stated": true,
+      "batch": "BIL-CJCND-01-2603",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "BPC-157 / TB-500 BB20 (10+10 mg)",
+      "peptide_identity": "BPC-157 / TB-500 BB20",
+      "sku": "BIL-BB20-01-2602",
+      "size_label": "10+10 mg",
+      "listed_price_usd": 90.0,
+      "price_stated": true,
+      "batch": "BIL-BB20-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157",
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "BPC-157 (20 mg)",
+      "peptide_identity": "BPC-157",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "20 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "BPC-157 (5 mg)",
+      "peptide_identity": "BPC-157",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": 40.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "AOD-9604 (5 mg)",
+      "peptide_identity": "AOD-9604",
+      "sku": "BIL-AOD-02-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-AOD-02-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "AOD-9604 (10 mg)",
+      "peptide_identity": "AOD-9604",
+      "sku": "BIL-AOD-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-AOD-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Semaglutide (10 mg)",
+      "peptide_identity": "Semaglutide",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Tirzepatide (10 mg)",
+      "peptide_identity": "Tirzepatide",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 85.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Tirzepatide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Sermorelin (10 mg)",
+      "peptide_identity": "Sermorelin",
+      "sku": "BIL-SRM-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-SRM-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Glutathione (1500 mg)",
+      "peptide_identity": "Glutathione",
+      "sku": "BIL-GLU-01-2602",
+      "size_label": "1500 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-GLU-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Glutathione"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Retatrutide (30 mg)",
+      "peptide_identity": "Retatrutide",
+      "sku": "BIL-RET-01-2602",
+      "size_label": "30 mg",
+      "listed_price_usd": 375.0,
+      "price_stated": true,
+      "batch": "BIL-RET-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 12.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "GLOW 70 (BPC-157/GHK-Cu/TB-500) (10+50+10 mg)",
+      "peptide_identity": "GLOW 70",
+      "sku": "BIL-GL70-01-2602",
+      "size_label": "10+50+10 mg",
+      "listed_price_usd": 210.0,
+      "price_stated": true,
+      "batch": "BIL-GL70-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "GLOW",
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [
+        "GLOW"
+      ],
+      "vendor_published_constituents": "GLOW 70 (BPC-157/GHK-Cu/TB-500) (10+50+10 mg) GLOW 70",
+      "price_per_mg_usd": 21.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "5-Amino-1MQ (5 mg)",
+      "peptide_identity": "5-Amino-1MQ",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "5 mg",
+      "listed_price_usd": 40.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "CJC-1295 / Ipamorelin CP10 (5+5 mg)",
+      "peptide_identity": "CJC-1295 / Ipamorelin CP10",
+      "sku": "BIL-CP10-01-2602",
+      "size_label": "5+5 mg",
+      "listed_price_usd": 95.0,
+      "price_stated": true,
+      "batch": "BIL-CP10-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Ipamorelin",
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [
+        "CJC / Ipamorelin"
+      ],
+      "vendor_published_constituents": "CJC-1295 / Ipamorelin CP10 (5+5 mg) CJC-1295 / Ipamorelin CP10",
+      "price_per_mg_usd": 19.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "BPC-157 / TB-500 BB10 (5+5 mg)",
+      "peptide_identity": "BPC-157 / TB-500 BB10",
+      "sku": "BIL-BB10-01-2602",
+      "size_label": "5+5 mg",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "BIL-BB10-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157",
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "5-Amino-1MQ (10 mg)",
+      "peptide_identity": "5-Amino-1MQ",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 65.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.5
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "BPC-157 (10 mg)",
+      "peptide_identity": "BPC-157",
+      "sku": "BIL-BATCH-01-2602",
+      "size_label": "10 mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "BIL-BATCH-01-2602",
+      "lab_name": "Verum Analytics",
+      "methods_present": [
+        "HPLC-UV",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.0
+    },
+    {
+      "vendor_slug": "bioinfinity-lab",
+      "vendor_name": "BioInfinity Lab",
+      "product_name": "Bacteriostatic Water 10 ml",
+      "peptide_identity": null,
+      "sku": null,
+      "size_label": "10 ml",
+      "listed_price_usd": 22.0,
+      "price_stated": true,
+      "batch": null,
+      "lab_name": null,
+      "methods_present": [],
+      "verification_status": "unverified",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "BPC-157 5mg",
+      "peptide_identity": "BPC-157",
+      "sku": "bpc-157",
+      "size_label": "5mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 7.998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "BPC-157 10mg",
+      "peptide_identity": "BPC-157",
+      "sku": "bpc-157",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "LC-MS"
+      ],
+      "verification_status": "client_pdf_only",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "BPC-157 + TB-500 20mg",
+      "peptide_identity": "BPC-157 + TB-500",
+      "sku": "bpc-157-tb-500",
+      "size_label": "20mg",
+      "listed_price_usd": 109.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157",
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.4995
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "CJC-1295 + Ipamorelin",
+      "peptide_identity": "CJC-1295 + Ipamorelin",
+      "sku": "cjc-1295-w-o-dac-5mgipamorelin-5mg",
+      "size_label": "",
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Ipamorelin",
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [
+        "CJC / Ipamorelin"
+      ],
+      "vendor_published_constituents": "CJC-1295 + Ipamorelin CJC-1295 + Ipamorelin",
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "DSIP 15mg",
+      "peptide_identity": "DSIP",
+      "sku": "dsip",
+      "size_label": "15mg",
+      "listed_price_usd": 44.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 2.9993
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Epithalon 10mg",
+      "peptide_identity": "Epithalon",
+      "sku": "epithalon",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GHK-Cu 50mg",
+      "peptide_identity": "GHK-Cu",
+      "sku": "ghk-cu",
+      "size_label": "50mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.7998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "KLOW 80mg",
+      "peptide_identity": "KLOW",
+      "sku": "klow",
+      "size_label": "80mg",
+      "listed_price_usd": 119.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "KLOW"
+      ],
+      "vendor_named_stacks": [
+        "KLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.4999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "KPV 10mg",
+      "peptide_identity": "KPV",
+      "sku": "kpv",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "MOTS-C 10mg",
+      "peptide_identity": "MOTS-C",
+      "sku": "mots-c",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "MT-2 10mg",
+      "peptide_identity": "MT-2",
+      "sku": "mt-2-melanotan-ii",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "NAD+ 500mg",
+      "peptide_identity": "NAD+",
+      "sku": "nad",
+      "size_label": "500mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.14
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "PT-141 10mg",
+      "peptide_identity": "PT-141",
+      "sku": "pt-141",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Semax 10mg",
+      "peptide_identity": "Semax",
+      "sku": "semax",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semax"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "SNAP-8 10mg",
+      "peptide_identity": "SNAP-8",
+      "sku": "snap-8",
+      "size_label": "10mg",
+      "listed_price_usd": 34.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.499
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Tesamorelin 10mg",
+      "peptide_identity": "Tesamorelin",
+      "sku": "tesa",
+      "size_label": "10mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Tesamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-3 (R) 5mg",
+      "peptide_identity": "GLP-3 (R)",
+      "sku": "glp-3-r",
+      "size_label": "5mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-3 (R) 10mg",
+      "peptide_identity": "GLP-3 (R)",
+      "sku": "glp-3-r",
+      "size_label": "10mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-3 (R) 20mg",
+      "peptide_identity": "GLP-3 (R)",
+      "sku": "glp-3-r",
+      "size_label": "20mg",
+      "listed_price_usd": 119.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.9995
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-3 (R) 30mg",
+      "peptide_identity": "GLP-3 (R)",
+      "sku": "glp-3-r",
+      "size_label": "30mg",
+      "listed_price_usd": 169.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.6663
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-2 (T) 5mg",
+      "peptide_identity": "GLP-2 (T)",
+      "sku": "glp-2-t",
+      "size_label": "5mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-2 (T) 10mg",
+      "peptide_identity": "GLP-2 (T)",
+      "sku": "glp-2-t",
+      "size_label": "10mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-2 (T) 20mg",
+      "peptide_identity": "GLP-2 (T)",
+      "sku": "glp-2-t",
+      "size_label": "20mg",
+      "listed_price_usd": 119.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.9995
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-1 (S) 15mg",
+      "peptide_identity": "GLP-1 (S)",
+      "sku": "glp-1-s",
+      "size_label": "15mg",
+      "listed_price_usd": 94.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.3327
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-1 (S) 10mg",
+      "peptide_identity": "GLP-1 (S)",
+      "sku": "glp-1-s",
+      "size_label": "10mg",
+      "listed_price_usd": 74.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 7.499
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-1 (S) 20mg",
+      "peptide_identity": "GLP-1 (S)",
+      "sku": "glp-1-s",
+      "size_label": "20mg",
+      "listed_price_usd": 114.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.7495
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-1 (S) 30mg",
+      "peptide_identity": "GLP-1 (S)",
+      "sku": "glp-1-s",
+      "size_label": "30mg",
+      "listed_price_usd": 144.99,
+      "price_stated": true,
+      "batch": "04042026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.833
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "EVO-Rt",
+      "peptide_identity": "EVO-Rt",
+      "sku": null,
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-2 (T) 30mg",
+      "peptide_identity": "GLP-2 (T)",
+      "sku": "glp-2-t",
+      "size_label": "30mg",
+      "listed_price_usd": 149.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.9997
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "SS31 10mg",
+      "peptide_identity": "SS31",
+      "sku": "ss31",
+      "size_label": "10mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "EVO-Cag 10mg",
+      "peptide_identity": "EVO-Cag",
+      "sku": "cagrilintide",
+      "size_label": "10mg",
+      "listed_price_usd": 79.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 7.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "KLOW 80mg",
+      "peptide_identity": "KLOW",
+      "sku": "klow",
+      "size_label": "80mg",
+      "listed_price_usd": 119.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "KLOW"
+      ],
+      "vendor_named_stacks": [
+        "KLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.4999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLOW 70mg",
+      "peptide_identity": "GLOW",
+      "sku": "glow",
+      "size_label": "70mg",
+      "listed_price_usd": 109.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "GLOW"
+      ],
+      "vendor_named_stacks": [
+        "GLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.5713
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "5-Amino-1MQ 5mg",
+      "peptide_identity": "5-Amino-1MQ",
+      "sku": "5-amino-1-mq",
+      "size_label": "5mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 9.998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Glutathione 1500mg",
+      "peptide_identity": "Glutathione",
+      "sku": "glutathione",
+      "size_label": "1500mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Glutathione"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.0467
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "IGF-1 LR3",
+      "peptide_identity": "IGF-1 LR3",
+      "sku": null,
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "BPC-157 + TB-500 20mg",
+      "peptide_identity": "BPC-157 + TB-500",
+      "sku": "bpc-157-tb-500",
+      "size_label": "20mg",
+      "listed_price_usd": 109.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157",
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.4995
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Tesa 10mg",
+      "peptide_identity": "Tesa",
+      "sku": "tesa",
+      "size_label": "10mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "201125",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "BPC-157 10mg",
+      "peptide_identity": "BPC-157",
+      "sku": "bpc-157",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GLP-1 (S) 30mg",
+      "peptide_identity": "GLP-1 (S)",
+      "sku": "glp-1-s",
+      "size_label": "30mg",
+      "listed_price_usd": 144.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.833
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Epithalon 10mg",
+      "peptide_identity": "Epithalon",
+      "sku": "epithalon",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "EVO GH-191 24IU",
+      "peptide_identity": "EVO GH-191",
+      "sku": "evo-gh-191",
+      "size_label": "24IU",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Ipamorelin 10mg",
+      "peptide_identity": "Ipamorelin",
+      "sku": "ipamorelin",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Ipamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "CJC-1295 10mg",
+      "peptide_identity": "CJC-1295",
+      "sku": "cjc-1295-w-o-dac",
+      "size_label": "10mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "CJC-1295"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "NAD+ 500mg",
+      "peptide_identity": "NAD+",
+      "sku": "nad",
+      "size_label": "500mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.14
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Semax 10mg",
+      "peptide_identity": "Semax",
+      "sku": "semax",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semax"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Selank 10mg",
+      "peptide_identity": "Selank",
+      "sku": "selank",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Glutathione 1500mg",
+      "peptide_identity": "Glutathione",
+      "sku": "glutathione",
+      "size_label": "1500mg",
+      "listed_price_usd": 69.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Glutathione"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.0467
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "GHK-Cu 50mg",
+      "peptide_identity": "GHK-Cu",
+      "sku": "ghk-cu",
+      "size_label": "50mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.7998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "MOTS-C 10mg",
+      "peptide_identity": "MOTS-C",
+      "sku": "mots-c",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "IGF-1 LR3",
+      "peptide_identity": "IGF-1 LR3",
+      "sku": null,
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Thymosin Alpha 5mg",
+      "peptide_identity": "Thymosin Alpha",
+      "sku": "thymosin-alpha",
+      "size_label": "5mg",
+      "listed_price_usd": 44.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.998
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "KPV 10mg",
+      "peptide_identity": "KPV",
+      "sku": "kpv",
+      "size_label": "10mg",
+      "listed_price_usd": 49.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Kisspeptin 10mg",
+      "peptide_identity": "Kisspeptin",
+      "sku": "kisspeptin",
+      "size_label": "10mg",
+      "listed_price_usd": 84.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.499
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "DSIP 15mg",
+      "peptide_identity": "DSIP",
+      "sku": "dsip",
+      "size_label": "15mg",
+      "listed_price_usd": 44.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 2.9993
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "PT-141 10mg",
+      "peptide_identity": "PT-141",
+      "sku": "pt-141",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "MT-2 10mg",
+      "peptide_identity": "MT-2",
+      "sku": "mt-2-melanotan-ii",
+      "size_label": "10mg",
+      "listed_price_usd": 39.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.999
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "SNAP-8 10mg",
+      "peptide_identity": "SNAP-8",
+      "sku": "snap-8",
+      "size_label": "10mg",
+      "listed_price_usd": 34.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.499
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "LIPO C 10mL",
+      "peptide_identity": "LIPO C",
+      "sku": "lipo-c",
+      "size_label": "10mL",
+      "listed_price_usd": 59.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "B12 10mL",
+      "peptide_identity": "B12",
+      "sku": "b12",
+      "size_label": "10mL",
+      "listed_price_usd": 54.99,
+      "price_stated": true,
+      "batch": "0010825",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC",
+        "MS"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "Recon Water (0.9% Benzyl Alcohol) \u2014 30 mL",
+      "peptide_identity": null,
+      "sku": "bac-water-united-labs30ml",
+      "size_label": "30ML",
+      "listed_price_usd": 24.99,
+      "price_stated": true,
+      "batch": "DVB038",
+      "lab_name": null,
+      "methods_present": [],
+      "verification_status": "unverified",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "evolabs-research",
+      "vendor_name": "Evo Labs Research",
+      "product_name": "BPC-157 10mg \u2014 Nasal Bundle",
+      "peptide_identity": "BPC-157",
+      "sku": "bpc-157",
+      "size_label": "10mg \u2014 Nasal Bundle",
+      "listed_price_usd": 59.99,
+      "price_stated": true,
+      "batch": "EVO5212026",
+      "lab_name": "Kovera Labs",
+      "methods_present": [],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.999
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "AOD-9604 5mg",
+      "peptide_identity": "AOD-9604",
+      "sku": "4132026AD",
+      "size_label": "5mg",
+      "listed_price_usd": 50.0,
+      "price_stated": true,
+      "batch": "4132026AD",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 10.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "BAC Water",
+      "peptide_identity": null,
+      "sku": "4172026BAC",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "4172026BAC",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "BPC-157 10mg",
+      "peptide_identity": "BPC-157",
+      "sku": "4042026",
+      "size_label": "10mg",
+      "listed_price_usd": 50.0,
+      "price_stated": true,
+      "batch": "4042026",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "BPC-157"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "CJC & Ipa 5+5mg",
+      "peptide_identity": "CJC & Ipa",
+      "sku": "3292026CJI",
+      "size_label": "5+5mg",
+      "listed_price_usd": 75.0,
+      "price_stated": true,
+      "batch": "3292026CJI",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [
+        "CJC / Ipamorelin"
+      ],
+      "vendor_published_constituents": "CJC & Ipa 5+5mg CJC & Ipa",
+      "price_per_mg_usd": 15.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GHK-Cu 100mg",
+      "peptide_identity": "GHK-Cu",
+      "sku": "PP-6524116",
+      "size_label": "100mg",
+      "listed_price_usd": 65.0,
+      "price_stated": true,
+      "batch": "PP-6524116",
+      "lab_name": "Horizon Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "GHK-Cu"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.65
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLOW Blend 70mg",
+      "peptide_identity": "GLOW Blend",
+      "sku": "3302026GLO",
+      "size_label": "70mg",
+      "listed_price_usd": 105.0,
+      "price_stated": true,
+      "batch": "3302026GLO",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "GLOW"
+      ],
+      "vendor_named_stacks": [
+        "GLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLOW Blend 70mg",
+      "peptide_identity": "GLOW Blend",
+      "sku": "1132026GLO",
+      "size_label": "70mg",
+      "listed_price_usd": 105.0,
+      "price_stated": true,
+      "batch": "1132026GLO",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "GLOW"
+      ],
+      "vendor_named_stacks": [
+        "GLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Glutathione 1500mg",
+      "peptide_identity": "Glutathione",
+      "sku": "3152026GLU",
+      "size_label": "1500mg",
+      "listed_price_usd": 65.0,
+      "price_stated": true,
+      "batch": "3152026GLU",
+      "lab_name": "Bioviridian",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Glutathione"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.0433
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Ipamorelin",
+      "peptide_identity": "Ipamorelin",
+      "sku": "3162026IPA",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "3162026IPA",
+      "lab_name": "Bioviridian",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Ipamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "KLOW Blend 80mg",
+      "peptide_identity": "KLOW Blend",
+      "sku": "4022026KLO",
+      "size_label": "80mg",
+      "listed_price_usd": 140.0,
+      "price_stated": true,
+      "batch": "4022026KLO",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "KLOW"
+      ],
+      "vendor_named_stacks": [
+        "KLOW"
+      ],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.75
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Melanotan I 10mg",
+      "peptide_identity": "Melanotan I",
+      "sku": "4152025MT",
+      "size_label": "10mg",
+      "listed_price_usd": 45.0,
+      "price_stated": true,
+      "batch": "4152025MT",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Melanotan I 10mg",
+      "peptide_identity": "Melanotan I",
+      "sku": "8022025MT",
+      "size_label": "10mg",
+      "listed_price_usd": 45.0,
+      "price_stated": true,
+      "batch": "8022025MT",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Melanotan II 10mg",
+      "peptide_identity": "Melanotan II",
+      "sku": "3092026MT2",
+      "size_label": "10mg",
+      "listed_price_usd": 40.0,
+      "price_stated": true,
+      "batch": "3092026MT2",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Melanotan II 10mg",
+      "peptide_identity": "Melanotan II",
+      "sku": "3132026MT2",
+      "size_label": "10mg",
+      "listed_price_usd": 40.0,
+      "price_stated": true,
+      "batch": "3132026MT2",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "MOTS-c 10mg",
+      "peptide_identity": "MOTS-c",
+      "sku": "4052026MO",
+      "size_label": "10mg",
+      "listed_price_usd": 55.0,
+      "price_stated": true,
+      "batch": "4052026MO",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "NAD+ 1000mg",
+      "peptide_identity": "NAD+",
+      "sku": "2172026ND",
+      "size_label": "1000mg",
+      "listed_price_usd": 125.0,
+      "price_stated": true,
+      "batch": "2172026ND",
+      "lab_name": "Bioviridian",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.125
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "NAD+ 1000mg",
+      "peptide_identity": "NAD+",
+      "sku": "4112026ND",
+      "size_label": "1000mg",
+      "listed_price_usd": 125.0,
+      "price_stated": true,
+      "batch": "4112026ND",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "NAD+"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 0.125
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Retatrutide 30mg",
+      "peptide_identity": "Retatrutide",
+      "sku": "26071002",
+      "size_label": "30mg",
+      "listed_price_usd": 120.0,
+      "price_stated": true,
+      "batch": "26071002",
+      "lab_name": "Freedom Diagnostics",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Retatrutide 10mg",
+      "peptide_identity": "Retatrutide",
+      "sku": "4122026RT",
+      "size_label": "10mg",
+      "listed_price_usd": 120.0,
+      "price_stated": true,
+      "batch": "4122026RT",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 12.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Retatrutide 30mg",
+      "peptide_identity": "Retatrutide",
+      "sku": "5292026RT",
+      "size_label": "30mg",
+      "listed_price_usd": 120.0,
+      "price_stated": true,
+      "batch": "5292026RT",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Retatrutide 60mg",
+      "peptide_identity": "Retatrutide",
+      "sku": "4102026RT",
+      "size_label": "60mg",
+      "listed_price_usd": 120.0,
+      "price_stated": true,
+      "batch": "4102026RT",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Retatrutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 2.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Selank | Semax 20mg",
+      "peptide_identity": "Selank",
+      "sku": "5052026SSX",
+      "size_label": "20mg",
+      "listed_price_usd": 90.0,
+      "price_stated": true,
+      "batch": "5052026SSX",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semax"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide",
+      "peptide_identity": "Semaglutide",
+      "sku": "2242026SM",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "2242026SM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide",
+      "peptide_identity": "Semaglutide",
+      "sku": "3142026SM",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "3142026SM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide",
+      "peptide_identity": "Semaglutide",
+      "sku": "3022026SM",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "3022026SM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide 5mg",
+      "peptide_identity": "Semaglutide",
+      "sku": "3272026SM",
+      "size_label": "5mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "3272026SM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 16.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide 5mg",
+      "peptide_identity": "Semaglutide",
+      "sku": "2182026SM",
+      "size_label": "5mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "2182026SM",
+      "lab_name": "Accumark Labs",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 16.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide 5mg",
+      "peptide_identity": "Semaglutide",
+      "sku": "2122026SM",
+      "size_label": "5mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "2122026SM",
+      "lab_name": "Vanguard Laboratory",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 16.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide 10mg",
+      "peptide_identity": "Semaglutide",
+      "sku": "1052026SM",
+      "size_label": "10mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "1052026SM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 8.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semaglutide 15mg",
+      "peptide_identity": "Semaglutide",
+      "sku": "11092025SM",
+      "size_label": "15mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "11092025SM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semaglutide"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 5.3333
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Semax",
+      "peptide_identity": "Semax",
+      "sku": "3222026SX",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "3222026SX",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Semax"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Sermorelin 10mg",
+      "peptide_identity": "Sermorelin",
+      "sku": "5082026SR",
+      "size_label": "10mg",
+      "listed_price_usd": 65.0,
+      "price_stated": true,
+      "batch": "5082026SR",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Sermorelin",
+      "peptide_identity": "Sermorelin",
+      "sku": "01222026SR",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "01222026SR",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "TB-500 10mg",
+      "peptide_identity": "TB-500",
+      "sku": "4062026",
+      "size_label": "10mg",
+      "listed_price_usd": 65.0,
+      "price_stated": true,
+      "batch": "4062026",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "TB-500 10mg",
+      "peptide_identity": "TB-500",
+      "sku": "4142026",
+      "size_label": "10mg",
+      "listed_price_usd": 65.0,
+      "price_stated": true,
+      "batch": "4142026",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "TB-500"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Tesamorelin 10mg",
+      "peptide_identity": "Tesamorelin",
+      "sku": "4182026TM",
+      "size_label": "10mg",
+      "listed_price_usd": 60.0,
+      "price_stated": true,
+      "batch": "4182026TM",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [
+        "Tesamorelin"
+      ],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 6.0
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLP-2 10mg",
+      "peptide_identity": "GLP-2",
+      "sku": "3122026TR",
+      "size_label": "10mg",
+      "listed_price_usd": 115.0,
+      "price_stated": true,
+      "batch": "3122026TR",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 11.5
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLP-2 30mg",
+      "peptide_identity": "GLP-2",
+      "sku": "26070201",
+      "size_label": "30mg",
+      "listed_price_usd": 115.0,
+      "price_stated": true,
+      "batch": "26070201",
+      "lab_name": "Freedom Diagnostics",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.8333
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLP-2 30mg",
+      "peptide_identity": "GLP-2",
+      "sku": "26070902",
+      "size_label": "30mg",
+      "listed_price_usd": 115.0,
+      "price_stated": true,
+      "batch": "26070902",
+      "lab_name": "Freedom Diagnostics",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 3.8333
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLP-2",
+      "peptide_identity": "GLP-2",
+      "sku": "3112026TR",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "3112026TR",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLP-2",
+      "peptide_identity": "GLP-2",
+      "sku": "3082026TR",
+      "size_label": null,
+      "listed_price_usd": null,
+      "price_stated": false,
+      "batch": "3082026TR",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": null
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "GLP-2 60mg",
+      "peptide_identity": "GLP-2",
+      "sku": "01266026TR",
+      "size_label": "60mg",
+      "listed_price_usd": 115.0,
+      "price_stated": true,
+      "batch": "01266026TR",
+      "lab_name": "Janoshik Analytical",
+      "methods_present": [
+        "HPLC"
+      ],
+      "verification_status": "verified_on_lab_portal",
+      "verified_on_lab_portal": true,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 1.9167
+    },
+    {
+      "vendor_slug": "prime-peptides",
+      "vendor_name": "Prime Peptides",
+      "product_name": "Wolverine Blend 20mg",
+      "peptide_identity": "Wolverine Blend",
+      "sku": "26062101",
+      "size_label": "20mg",
+      "listed_price_usd": 80.0,
+      "price_stated": true,
+      "batch": "26062101",
+      "lab_name": null,
+      "methods_present": [
+        "HPLC",
+        "PCR"
+      ],
+      "verification_status": "vendor_pdf",
+      "verified_on_lab_portal": false,
+      "tease_tags": [],
+      "vendor_named_stacks": [],
+      "vendor_published_constituents": null,
+      "price_per_mg_usd": 4.0
+    }
+  ]
+}
